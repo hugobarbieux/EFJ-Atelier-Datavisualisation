@@ -4,7 +4,7 @@ Ce repository contient les élements pour l'atelier de data visualisations pour 
 
 Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
-Twitter.com/hugobarbieux
+https://twitter.com/hugobarbieux
 
 ## Synopsis
 
@@ -31,19 +31,29 @@ Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démyst
 
 ## Repères théoriques
 
-Quoi de plus compliqué que des chiffres dans un tableau Excel? Mettre en forme ces chiffres pour rendre l'information compréhensible pour notre cerveau et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
+Quoi de plus compliqué que des chiffres dans un tableau Excel ? Mettre en forme ces chiffres pour rendre l'information compréhensible pour notre cerveau et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
 
-De quoi est composée une datavisualisation :
-*Structure, échafaudage
-*Encoding
-*Annotations, légende
+#### De quoi est composée une datavisualisation :
 
-Dans quel ordre:
-Trouver un sujet
-Trouver des données
-Vérifier
-Mettre en récit
-Créer le design
+* Structure, échafaudage
+* Encoding
+* Annotations, légende
+
+#### Dans quel ordre:
+
+* Trouver un sujet
+* Trouver des données
+* Vérifier
+* Mettre en récit
+* Créer le design
+
+#### Les dataviz pour trouver des idées de sujet
+
+Parfois, créer une data visualisation ne sert pas seulement à agrémenter son récit d'éléments visuels. En tant que journaliste, visualiser des données permet d'explorer son jeu de données, et ce, avant du publier son sujet.
+
+Parce que les données se retrouvent dans un contexte, on se rend compte des éventuelles faiblesses de ses données (faut-il chercher d'autres données ?) ou qu'il existe d'autres angles intéressants à traiter.
+
+Une notion très importante à prendre en compte est la différence entre **corrélation et correspondance**.
 
 ## Graphiques et tableaux
 
@@ -60,7 +70,9 @@ Une carte animée sur Flourish.
 
 ## Différentes plateformes
 
-De la presse écrite aux réseaux sociaux
+De la presse écrite aux réseaux sociaux.
+Exemple d'une Une du New York Times.
+Focus sur l'excellent (et inspirant) travail de Mona Chalabi sur Instagram et TikTok.
 
 ## Pour aller plus loin
 
