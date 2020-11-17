@@ -34,9 +34,9 @@ Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démyst
 Quoi de plus compliqué que des chiffres dans un tableau Excel? Mettre en forme ces chiffres pour rendre l'information compréhensible pour notre cerveau et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
 
 De quoi est composée une datavisualisation :
-### Structure, échafaudage
-### Encoding
-### Annotations, légende
+*Structure, échafaudage
+*Encoding
+*Annotations, légende
 
 Dans quel ordre:
 Trouver un sujet
