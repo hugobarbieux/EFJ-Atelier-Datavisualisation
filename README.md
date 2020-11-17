@@ -26,18 +26,42 @@ Pitcher une idée de datavisualisation en quelques lignes comme si on voulait ve
 
 ## Introduction
 
-Quelques exemples, le champ des possibles en data visalisations.
+Quelques exemples, le champ des possibles en data visualisations.
 Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier ces exemples parmi les publications les plus ambitieuses... et pourquoi pas, reproduire ces visualisations.
 
 ## Repères théoriques
 
 Quoi de plus compliqué que des chiffres dans un tableau Excel? Mettre en forme ces chiffres pour rendre l'information compréhensible pour notre cerveau et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
 
-De quoi est composée une datavisualisation:
-### Structure, échaffaudage
+De quoi est composée une datavisualisation :
+### Structure, échafaudage
 ### Encoding
 ### Annotations, légende
 
+Dans quel ordre:
+Trouver un sujet
+Trouver des données
+Vérifier
+Mettre en récit
+Créer le design
+
 ## Graphiques et tableaux
 
+Coronavirus
+Datawrapper
+Flourish
+
 ## Cartes
+
+Quand utiliser des cartes ?
+Les élections américaines.
+Une carte animée sur Flourish.
+
+
+## Différentes plateformes
+
+De la presse écrite aux réseaux sociaux
+
+## Pour aller plus loin
+
+L'intérêt de R et du partage des données. Cas concret des données du coronavirus.
