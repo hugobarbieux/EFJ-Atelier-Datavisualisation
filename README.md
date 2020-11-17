@@ -24,4 +24,20 @@ Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 Pitcher une idée de datavisualisation en quelques lignes comme si on voulait vendre un sujet à un rédacteur en chef. Réaliser cette data visualisation de manière informative, originale et esthétique.
 
+## Introduction
+
+Quelques exemples, le champ des possibles en data visalisations.
+Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier ces exemples parmi les publications les plus ambitieuses... et pourquoi pas, reproduire ces visualisations.
+
 ## Repères théoriques
+
+Quoi de plus compliqué que des chiffres dans un tableau Excel? Mettre en forme ces chiffres pour rendre l'information compréhensible pour notre cerveau et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
+
+De quoi est composée une datavisualisation:
+### Structure, échaffaudage
+### Encoding
+### Annotations, légende
+
+## Graphiques et tableaux
+
+## Cartes
