@@ -16,10 +16,12 @@ Ils pourront à la fin de cet atelier identifier quelle visualisation est la mie
 
 ## Aboutissement
 
-Créer des data visualisations sur différents formats.
+Créer des data visualisations avec différents programmes pour différentes plateformes.
 
 Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 ## Évaluation
 
 Pitcher une idée de datavisualisation en quelques lignes comme si on voulait vendre un sujet à un rédacteur en chef. Réaliser cette data visualisation de manière informative, originale et esthétique.
+
+## Repères théoriques
