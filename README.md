@@ -58,20 +58,26 @@ Une notion très importante à prendre en compte est la différence entre **corr
 ## Graphiques et tableaux
 
 Coronavirus
+
 Datawrapper
+
 Flourish
 
 ## Cartes
 
 Quand utiliser des cartes ?
+
 Les élections américaines.
+
 Une carte animée sur Flourish.
 
 
 ## Différentes plateformes
 
 De la presse écrite aux réseaux sociaux.
+
 Exemple d'une Une du New York Times.
+
 Focus sur l'excellent (et inspirant) travail de Mona Chalabi sur Instagram et TikTok.
 
 ## Pour aller plus loin
