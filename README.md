@@ -6,6 +6,8 @@ Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
 [Twitter](https://twitter.com/hugobarbieux)
 
+[Slides pour l'atelier](https://docs.google.com/presentation/d/1LJ1bdDqvUGVSBzYbe-YWKKpnuntiW3V6uNsgPg4A2oo/edit?usp=sharing)
+
 ## Synopsis
 
 Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension pour s'adapter aux nouveaux outils à venir.
