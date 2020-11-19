@@ -29,6 +29,8 @@ Pitcher une idée de datavisualisation en quelques lignes comme si on voulait ve
 Quelques exemples, le champ des possibles en data visualisations.
 Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier ces exemples parmi les publications les plus ambitieuses... et pourquoi pas, reproduire ces visualisations.
 
+[The Economist - A Year in Graphic Detail](https://infographics.economist.com/2019/AChristmasGiftForYou/AYearInGraphicDetail.pdf)
+
 ## Repères théoriques
 
 Quoi de plus compliqué que des chiffres dans un tableau Excel ? Mettre en forme ces chiffres pour rendre l'information compréhensible pour notre cerveau et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
@@ -36,8 +38,11 @@ Quoi de plus compliqué que des chiffres dans un tableau Excel ? Mettre en forme
 #### De quoi est composée une datavisualisation :
 
 * Structure, échafaudage
-* Encoding
-* Annotations, légende
+* Contenu (encoding) - la visualisation en elle-même
+
+Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-interactive/chart-doctor/master/visual-vocabulary/poster.png) pour choisir la bonne méthode d'"encoding" en fonction de ce qu'on veut raconter.
+
+* Annotations (textes de contexte et légende)
 
 #### Dans quel ordre:
 
