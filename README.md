@@ -4,11 +4,11 @@ Ce repository contient les élements pour l'atelier de data visualisations pour 
 
 Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
-https://twitter.com/hugobarbieux
+Twitter(https://twitter.com/hugobarbieux)
 
 ## Synopsis
 
-Cet atelier a pour but de donner à mettre dans les mains des étudiants une série d'outils pour mettre en forme des données et leur donner les clés de compréhension pour s'adapter aux nouveaux outils à venir.
+Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension pour s'adapter aux nouveaux outils à venir.
 
 Les étudiants verront clairement en quoi une base de données est une mise en forme particulière de l'information de sorte que ces informations soient interprétables par un ordinateur. De ce fait, les étudiants comprendront comment un programme de visualisation fonctionne et pourront ainsi adapter et nettoyer leurs bases de données en fonction des outils qu'ils choisiront d'utiliser.
 
