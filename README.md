@@ -4,7 +4,7 @@ Ce repository contient les élements pour l'atelier de data visualisations pour 
 
 Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
-Twitter(https://twitter.com/hugobarbieux)
+[Twitter](https://twitter.com/hugobarbieux)
 
 ## Synopsis
 
