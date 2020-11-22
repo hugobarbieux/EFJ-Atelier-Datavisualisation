@@ -78,6 +78,8 @@ Comment parler de data visualisations sans évoquer les cartes ? Mais la localis
 
 Attention à ne pas en abuser. Quand utiliser des cartes et quand ne pas les utiliser ? [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
 
+Les médias d'investigation Bellingcat et Forensic Architecture ont publié une [carte des violences policières durant les manifestations BLM de 2020](https://usprotests.forensic-architecture.org/). Utilisation des [données rendues disponibles](https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit?usp=sharing) pour reproduire une carte similaire.
+
 Utilisation des programmes Flourish, DataWrapper et QGIS pour personnaliser au maximum des cartes.
 
 ## Code et interactivité
