@@ -18,18 +18,22 @@ Ils pourront à la fin de cet atelier identifier quelle visualisation est la mie
 
 ## Aboutissement
 
-Créer des data visualisations avec différents programmes pour différentes plateformes.
+Créer des data visualisations avec différents programmes et pour différentes plateformes.
 
 Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 ## Évaluation
 
-Pitcher une idée de datavisualisation en quelques lignes comme si on voulait vendre un sujet à un rédacteur en chef. Réaliser cette data visualisation de manière informative, originale et esthétique.
+Pitcher une idée de datavisualisation en quelques lignes comme si on voulait vendre un sujet à un rédacteur en chef. Réaliser cette data visualisation de manière informative, originale et esthétique. [Tips pour les pitch ici](https://www.journoresources.org.uk/pitching-guidelines/).
 
 ## Introduction
 
 Quelques exemples, le champ des possibles en data visualisations.
-Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier ces exemples parmi les publications les plus ambitieuses... et pourquoi pas, reproduire ces visualisations.
+Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier ces exemples parmi les publications les plus prestigieuses... et pourquoi pas, reproduire ces visualisations.
+
+À voir :
+
+[Sigma Awards - section data visualisations](https://datajournalism.com/awards).
 
 [The Economist - A Year in Graphic Detail](https://infographics.economist.com/2019/AChristmasGiftForYou/AYearInGraphicDetail.pdf)
 
@@ -58,32 +62,39 @@ Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-inte
 
 Parfois, créer une data visualisation ne sert pas seulement à agrémenter son récit d'éléments visuels. En tant que journaliste, visualiser des données permet d'explorer son jeu de données, et ce, avant du publier son sujet.
 
-Parce que les données se retrouvent dans un contexte, on se rend compte des éventuelles faiblesses de ses données (faut-il chercher d'autres données ?) ou qu'il existe d'autres angles intéressants à traiter.
+Avec une data visualisation, les données se retrouvent en contexte, on se rend alors mieux compte des éventuelles faiblesses de ses données (faut-il chercher d'autres données ?) ou s'il existe d'autres angles intéressants à traiter.
 
 Une notion très importante à prendre en compte est la différence entre **corrélation et correspondance**.
 
 ## Graphiques et tableaux
 
-Coronavirus
+Ce que nous apprend la couverture médiatique de la crise du coronavirus.
 
-Datawrapper
+Utilisation des plateformes Datawrapper et Flourish pour construire des data visualisations interactives.
 
-Flourish
+## Localisations et cartes
 
-## Cartes
+Comment parler de data visualisations sans évoquer les cartes ? Mais la localisations passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
 
-Quand utiliser des cartes ?
+Attention à ne pas en abuser. Quand utiliser des cartes et quans ne pas les utiliser ? [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
 
-Les élections américaines.
+Utilisation des programmes Flourish, DataWrapper et QGIS pour personnaliser au maximum des cartes.
 
-Une carte animée sur Flourish.
+## Code et interactivité
 
+Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de CSV et nous avons vu quelques formats d'encodage géographiques.
+
+Mais les data sont presque toujours présentées sous forme de tableau, dans un tableur. Et parfois, c'est aussi la manière la plus efficace de visualiser des données, comme par exemple, des résultats sportifs.
+
+Essayons de créer un tableau interactif sur une page Web. Pour ça, il faut écrire en JavaScript. Allons plus loin en créant un graphique basé sur ce tableau.
+
+On peut simplement créer un compteur en JavaScript. Quand les chiffres sont impressionnants, cette visualisation donne un effet d'accumulation intéressant.
 
 ## Différentes plateformes
 
-De la presse écrite aux réseaux sociaux.
+De la presse écrite aux réseaux sociaux. Exemple d'une Une du New York Times.
 
-Exemple d'une Une du New York Times.
+Un dérivé de la visualisation : l'audiolisation, comme le permet l'appli TwoTone.
 
 Focus sur l'excellent (et inspirant) travail de Mona Chalabi sur Instagram et TikTok.
 
