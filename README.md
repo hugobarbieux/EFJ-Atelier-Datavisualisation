@@ -1,6 +1,6 @@
 # EFJ - Atelier data visualisations
 
-Ce repository contient les élements pour l'atelier de data visualisations pour les étudiants de l'EFJ.
+Ce repository contient les éléments pour l'atelier de data visualisations pour les étudiants de l'EFJ.
 
 Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
@@ -50,7 +50,7 @@ Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-inte
 
 * Annotations (textes de contexte et légende)
 
-#### Dans quel ordre:
+#### Dans quel ordre :
 
 * Trouver un sujet
 * Trouver des données
@@ -74,9 +74,9 @@ Utilisation des plateformes Datawrapper et Flourish pour construire des data vis
 
 ## Localisations et cartes
 
-Comment parler de data visualisations sans évoquer les cartes ? Mais la localisations passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
+Comment parler de data visualisations sans évoquer les cartes ? Mais la localisation de données passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
 
-Attention à ne pas en abuser. Quand utiliser des cartes et quans ne pas les utiliser ? [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
+Attention à ne pas en abuser. Quand utiliser des cartes et quand ne pas les utiliser ? [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
 
 Utilisation des programmes Flourish, DataWrapper et QGIS pour personnaliser au maximum des cartes.
 
