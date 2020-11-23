@@ -58,6 +58,17 @@ Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-inte
 * Mettre en récit
 * Créer le design
 
+#### Culture générale
+
+[Narrative Visualization : Telling Stories with Data](http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf)
+
+[Newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
+
+[Wall Street Journal guide](https://www.amazon.fr/Street-Journal-Guide-Information-Graphics/dp/0393347281)
+
+[Alberto Cairo](https://www.amazon.fr/Functional-Art-introduction-information-visualization/dp/0321834739)
+
+
 #### Les dataviz pour trouver des idées de sujet
 
 Parfois, créer une data visualisation ne sert pas seulement à agrémenter son récit d'éléments visuels. En tant que journaliste, visualiser des données permet d'explorer son jeu de données, et ce, avant du publier son sujet. [Inzight](https://inzight.nz/), programme développé par l'Université d'Auckland, en Nouvelle-Zélande, est parfait pour cette tâche.
