@@ -155,9 +155,21 @@ Pour progresser avec QGIS, vous n'aurez aucun mal à trouver des tutoriels telle
 
 Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de CSV et nous avons vu quelques formats d'encodage géographiques.
 
-Mais les data sont presque toujours présentées sous forme de tableau, dans un tableur. Et parfois, c'est aussi la manière la plus efficace de visualiser des données, comme par exemple, des résultats sportifs.
+Mais les data sont presque toujours présentées sous forme de tableau, dans un tableur. Et parfois, c'est aussi la manière la plus efficace de visualiser des données, comme par exemple, [des résultats sportifs](https://projects.fivethirtyeight.com/2020-nba-player-ratings/).
 
-Essayons de créer un tableau interactif sur une page Web. Pour ça, il faut écrire en JavaScript. Allons plus loin en créant un graphique basé sur ce tableau.
+Essayons de créer un tableau interactif sur une page Web. Pour ça, il faut utiliser un langage pour créer du design sur le wew, appelé JavaScript et des "packages" de design appelées libraries.
+
+[Voici le lien vers une library](https://github.hubspot.com/sortable/docs/welcome/) que vous allons utiliser pour créer des tableaux triables.
+
+Pour cette partie, nous allons aussi utiliser un service en ligne appelé [Codepen](https://codepen.io/). Cela nous évite de créer tout l'architecture d'une vraie page web.
+
+Ensuite il faut ajouter un tableau dans la page html. Pour éviter de coder un tableau entier, copiez-collez simplement un tableau dans le site https://tableizer.journalistopia.com/. Tableizer va générer un code html mais aussi un peu de css qu'il faut supprimer (nous allons par la suite ajouter nos propres modifications et attributs).
+
+* Enlevez l'inforation style de <style type="text/css"> à </style>
+* Dans <table class="tableizer-table"> enlevez class="tableizer-table" donc vous n'avez que <table>
+* Pareil dans <tr class="tableizer-firstrow"> enlevez les attributs de class pour qu'il ne reste que <tr>
+
+Allons plus loin en créant un graphique basé sur ce tableau.
 
 On peut simplement créer un compteur en JavaScript. Quand les chiffres sont impressionnants, cette visualisation donne un effet d'accumulation intéressant.
 
