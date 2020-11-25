@@ -85,6 +85,8 @@ Certaines bases de données ne sont pas au bon format. Elle sont dans un format 
 
 [Tutoriel pour le nettoyage OpenRefine](https://blog.ouseful.info/2012/07/30/data-shaping-in-google-refine-generating-new-rows-from-multiple-values-in-a-single-column/).
 
+Alternative à [OpenRefine : Data Wrangler](http://vis.stanford.edu/wrangler/)
+
 ## Graphiques et tableaux
 
 Ce que nous apprend la couverture médiatique de la crise du coronavirus.
