@@ -93,6 +93,8 @@ Utilisation des plateformes Datawrapper et Flourish pour construire des data vis
 
 [Aller dans la documentation](https://academy.datawrapper.de/category/77-tables) pour personnaliser ses tableaux.
 
+Si vous voulez compléter un tableau de données avec un autre tableau, il va falloir les associer. Pour associer deux tableaux, une fonction permet d'éviter les erreurs, [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1). Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code.
+
 ## Localisations et cartes
 
 Comment parler de data visualisations sans évoquer les cartes ? Mais la localisation de données passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
