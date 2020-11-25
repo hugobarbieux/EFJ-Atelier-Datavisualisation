@@ -111,15 +111,12 @@ Une carte est donc extrêmement utile pour repérer des répartitions géographi
 
 Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez Cotegory dot map. Comme toujours avec Flourish, ouvrez les data pour voir comment le template est encodé et aubesoin, nettoyez et adaptez vos données. Allez dans l'onglet data. Les colonnes latitude, longitude et category sont les plus importantes. Cette dernière est reliée à la colonne Category de l'onglet Categories.
 
-Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Pour donner une valeur aux points, il faut fusionner le avec une autre base données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Peut-être verrez-vous des répartitions de bons et moins bons lycées à certains endroits...
-
-Dans Flourish, un certain nombre de templates existe déjà pour créer des cartes. France, Royaume-Uni, États-Unis, etc. Mais pour vos propres besoins, vous aurez peut-être besoin d'un autre template. Flourish permet d'importer des templates parsonnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
+Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial). Pour donner une valeur aux points, il faut fusionner le avec une autre base données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Peut-être verrez-vous des répartitions de bons et moins bons lycées à certains endroits...
 
 
+Dans Flourish, quelques templates existent déjà pour créer des cartes. France, Royaume-Uni, États-Unis, etc. Mais pour vos propres besoins, vous aurez peut-être besoin d'un autre template. Flourish permet d'importer des templates parsonnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
 
-Pour localiser des régions ou des points, Flourish demande un fichier de type GeoJSON.
-
-Par exemple, le portail de data de l'éducation nationale, héberge ce type de fichiers. Si vous rencontrez des problèmes de compatibilité, la documentation de Flourish propose de convertir vos fichiers de localisation sur le site [MapShaper](https://mapshaper.org/).
+Pour localiser des régions ou des points, Flourish demande un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
 
 ## Code et interactivité
 
