@@ -107,16 +107,26 @@ Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.be
 
 #### Utilisation des programmes Flourish, DataWrapper et QGIS pour personnaliser au maximum des cartes.
 
+*Flourish
+
 Une carte est donc extrêmement utile pour repérer des répartitions géographiques (geographic patterns). Flourish rend facile la localisation de points sur une carte. Veillez à avoir ces deux éléments dans vos datasets, une longitude et une latitude (parfois respectivement nommées x et y).
 
 Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez Cotegory dot map. Comme toujours avec Flourish, ouvrez les data pour voir comment le template est encodé et aubesoin, nettoyez et adaptez vos données. Allez dans l'onglet data. Les colonnes latitude, longitude et category sont les plus importantes. Cette dernière est reliée à la colonne Category de l'onglet Categories.
 
-Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial). Pour donner une valeur aux points, il faut fusionner le avec une autre base données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Peut-être verrez-vous des répartitions de bons et moins bons lycées à certains endroits...
+Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial).
+
+Pour donner une valeur aux points, il faut fusionner le avec une autre base données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Encore une fois, préférez le code établissement au nom de l'établissement.
+
+Peut-être verrez-vous des répartitions de bons et moins bons lycées à certains endroits. Par contre si votre but est de faire une relation entre niveau de vie et réussie, préférez un graphique comme un nuage de points.
 
 
 Dans Flourish, quelques templates existent déjà pour créer des cartes. France, Royaume-Uni, États-Unis, etc. Mais pour vos propres besoins, vous aurez peut-être besoin d'un autre template. Flourish permet d'importer des templates parsonnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
 
 Pour localiser des régions ou des points, Flourish demande un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
+
+*DataWrapper
+
+
 
 ## Code et interactivité
 
