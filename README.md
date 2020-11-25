@@ -105,13 +105,15 @@ Attention à ne pas en abuser. Quand utiliser des cartes et quand ne pas les uti
 
 Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/?fbclid=IwAR0P_IubPRRQQpTttFquKOeMrEVKFx4_DmS5y6ee7mXMkpA_4Hk8ZusBoIE) ont publié une [carte des violences policières durant les manifestations BLM de 2020](https://usprotests.forensic-architecture.org/). Utilisation des [données rendues disponibles](https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit?usp=sharing) pour reproduire une carte similaire.
 
-#### Utilisation des programmes Flourish, DataWrapper et QGIS pour personnaliser au maximum des cartes.
+#### Utilisation des programmes Flourish, Datawrapper et QGIS pour personnaliser au maximum des cartes.
 
-*Flourish
+*Flourish*
 
 Une carte est donc extrêmement utile pour repérer des répartitions géographiques (geographic patterns). Flourish rend facile la localisation de points sur une carte. Veillez à avoir ces deux éléments dans vos datasets, une longitude et une latitude (parfois respectivement nommées x et y).
 
-Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez Cotegory dot map. Comme toujours avec Flourish, ouvrez les data pour voir comment le template est encodé et aubesoin, nettoyez et adaptez vos données. Allez dans l'onglet data. Les colonnes latitude, longitude et category sont les plus importantes. Cette dernière est reliée à la colonne Category de l'onglet Categories.
+Ces données de la [police britannique](https://data.police.uk/data/) marchent parfaitement et vous pouvez facilement pointer les faits de criminalité sur une carte.
+
+Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez Category dot map. Comme toujours avec Flourish, ouvrez les data pour voir comment le template est encodé et aubesoin, nettoyez et adaptez vos données. Allez dans l'onglet data. Les colonnes latitude, longitude et category sont les plus importantes. Cette dernière est reliée à la colonne Category de l'onglet Categories.
 
 Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial).
 
@@ -124,8 +126,17 @@ Dans Flourish, quelques templates existent déjà pour créer des cartes. France
 
 Pour localiser des régions ou des points, Flourish demande un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
 
-*DataWrapper
+*Datawrapper*
 
+Datawrapper contient beaucoup plus de templates et présente un style plus classique. Cliquez sur Create a new map en haut de l'écran. Ensuite choisissez le type de carte (symbol map pour des points). Dans un premier temps, affinez la zone géographique grâce à la barre de recherche. Si vous ne trouvez pas la zone géographique, vous pouvez l'importer. Testez-vous en essayant de trouver un fichier JSON des arrondissements de Paris sur le site de l'IGN.
+
+Cliquez sur proceed et puis sur import your dataset. Plusieurs fenêtres vont s'afficher avec des indications à respecter. Veillez à bien selectionner vos colonnes latitude et longitudes pour une carte de points. Si c'est le cas, la carte apparaîtra avec vos points. Cliquez sur proceed et personnalisez votre carte avec les fonctiosn habituelles de Datawrapper. La documentation est encore ici d'une grande aide.
+
+*QGIS*
+
+QGIS est un logiciel de cartographie professionnel. Il fonctionne sur le principe des calques comme d'autres logiciels de traitement d'image. Pour débuter avec QGIS, téléchargez [sur Natural Earth](https://www.naturalearthdata.com/downloads) des jeux de data pour créer une carte du monde. Sélectionnez Cultural. Dans QGIS, faites Add Layer > Vector Layer et cherchez, dans votre dossier Natural Earth, un fichier "Shapefile" (se terminant par .shp).
+
+Pour progresser avec QGIS, vous n'aurez aucun mal à trouver des tutoriels tellement ce programme est puissant et populaire. Le [journaliste du Financial Times Steven Bernard](https://twitter.com/sdbernard?lang=fr) a d'ailleurs rendu public une séries de tutoriels [sur sa chaîne YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R&app=desktop).
 
 
 ## Code et interactivité
