@@ -105,7 +105,15 @@ Attention à ne pas en abuser. Quand utiliser des cartes et quand ne pas les uti
 
 Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/?fbclid=IwAR0P_IubPRRQQpTttFquKOeMrEVKFx4_DmS5y6ee7mXMkpA_4Hk8ZusBoIE) ont publié une [carte des violences policières durant les manifestations BLM de 2020](https://usprotests.forensic-architecture.org/). Utilisation des [données rendues disponibles](https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit?usp=sharing) pour reproduire une carte similaire.
 
-Utilisation des programmes Flourish, DataWrapper et QGIS pour personnaliser au maximum des cartes.
+#### Utilisation des programmes Flourish, DataWrapper et QGIS pour personnaliser au maximum des cartes.
+
+Dans Flourish, un certain nombre de templates existe déjà pour créer des cartes. France, Royaume-Uni, États-Unis, etc. Mais pour vos propres besoins, vous aurez peut-être besoin d'un autre template. Flourish permet d'importer des templates parsonnalisés.
+
+Par exemple, essayons de localiser les établissements scolaires de France sur une carte Flourish. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses données de localisations.
+
+Pour localiser des régions ou des points, Flourish demande un fichier de type GeoJSON.
+
+Par exemple, le portail de data de l'éducation nationale, héberge ce type de fichiers. Si vous rencontrez des problèmes de compatibilité, la documentation de Flourish propose de convertir vos fichiers de localisation sur le site [MapShaper](https://mapshaper.org/).
 
 ## Code et interactivité
 
