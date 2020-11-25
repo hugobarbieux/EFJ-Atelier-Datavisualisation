@@ -71,11 +71,21 @@ Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-inte
 
 #### Les dataviz pour trouver des idées de sujet
 
-Parfois, créer une data visualisation ne sert pas seulement à agrémenter son récit d'éléments visuels. En tant que journaliste, visualiser des données permet d'explorer son jeu de données, et ce, avant du publier son sujet. [Inzight](https://inzight.nz/), programme développé par l'Université d'Auckland, en Nouvelle-Zélande, est parfait pour cette tâche.
+Parfois, créer une data visualisation ne sert pas seulement à agrémenter son récit d'éléments visuels. En tant que journaliste, visualiser des données permet d'explorer son jeu de données, et ce, avant du publier son sujet. [Inzight](https://inzight.nz/) (préférez la version Lite), est un programme développé par l'Université d'Auckland, en Nouvelle-Zélande, est parfait pour cette tâche.
 
 Avec une data visualisation, les données se retrouvent en contexte, on se rend alors mieux compte des éventuelles faiblesses de ses données (faut-il chercher d'autres données ?) ou s'il existe d'autres angles intéressants à traiter.
 
-Une notion très importante à prendre en compte est la différence entre **corrélation et correspondance**.
+Pour vous entrainer avec Inzight, utilisez une base de donnée existante. Aller dans File > Dataset examles. Dans le menu déroulant à gauche, choisissez Future Learn, puis Gapminder. Cliquez sue le bouton Select Set et cliquez sur Visualize.
+
+Par défaut, Inzight met la première colonne dans la première variable. Essayez avec GDPpercapita. Inzight affiche alors un nuage de points (ou Scatter Plot). La majorité des points est à gauche, signifiant que la plupart des pays ont un GDPpercapita faible.
+
+Selectionnez une seconde variable. Par exemple, Childrenperwoman. Le Scatter Plot change mais est très encombré. Il faudrait aussi subdiviser par année. Faites alors Subset by. Mais selectionnez Year_cat. Year_cat est en fait la colonne Year mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
+
+Si vous cliquez sur le bouton Add to plot, puis, plus bas, Group by et selectionnez Continent, les points (qui représentent les pays) vont prendre une couleur selon la région du globe. Pour nommer les points, vous devez remonter dans le menu déroulant et choisir Identify points puis Text label, puis Country.
+
+Essayez de changer la seconde variable. Un Scatter Plot vous permet d'effectuer un lien. Par exemple, les femmes ont plus d'enfants dans les pays pauvres. Regardez maintenant les valeurs extrêmes. Par exemple, dans les années 80, les EAU avaient un taux d'enfants par femme élevé pour un GDP élevé, à l'inverse des autres pays. Il y a peut-être des facteurs culturels ou autre qui expliquent le nombre d'enfants. Ceci pourrait être un sujet à investiguer ou à expliquer.
+
+Il faut donc intégrer une notion très importante : la différence entre **corrélation et correspondance**.
 
 ## Mise en formes des données
 
@@ -85,7 +95,7 @@ Certaines bases de données ne sont pas au bon format. Elle sont dans un format 
 
 [Tutoriel pour le nettoyage OpenRefine](https://blog.ouseful.info/2012/07/30/data-shaping-in-google-refine-generating-new-rows-from-multiple-values-in-a-single-column/).
 
-Alternative à [OpenRefine : Data Wrangler](http://vis.stanford.edu/wrangler/)
+Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). Mais OpenRefine est régulièrement mis à jour et permet bien d'autres choses.
 
 ## Graphiques et tableaux
 
@@ -93,7 +103,7 @@ Ce que nous apprend la couverture médiatique de la crise du coronavirus.
 
 Utilisation des plateformes Datawrapper et Flourish pour construire des data visualisations interactives.
 
-[Aller dans la documentation](https://academy.datawrapper.de/category/77-tables) pour personnaliser ses tableaux.
+[Allez dans la documentation](https://academy.datawrapper.de/category/77-tables) pour personnaliser ses tableaux.
 
 Si vous voulez compléter un tableau de données avec un autre tableau, il va falloir les associer. Pour associer deux tableaux, une fonction permet d'éviter les erreurs, [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1). Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code.
 
