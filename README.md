@@ -87,6 +87,8 @@ Ce que nous apprend la couverture médiatique de la crise du coronavirus.
 
 Utilisation des plateformes Datawrapper et Flourish pour construire des data visualisations interactives.
 
+[Aller dans la documentation](https://academy.datawrapper.de/category/77-tables) pour personnaliser ses tableaux.
+
 ## Localisations et cartes
 
 Comment parler de data visualisations sans évoquer les cartes ? Mais la localisation de données passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
