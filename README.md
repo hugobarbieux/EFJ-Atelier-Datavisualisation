@@ -165,9 +165,9 @@ Pour cette partie, nous allons aussi utiliser un service en ligne appelé [Codep
 
 Ensuite il faut ajouter un tableau dans la page html. Pour éviter de coder un tableau entier, copiez-collez simplement un tableau dans le site https://tableizer.journalistopia.com/. Tableizer va générer un code html mais aussi un peu de css qu'il faut supprimer (nous allons par la suite ajouter nos propres modifications et attributs).
 
-* Enlevez l'information style de <style type="text/css"> à </style>
-* Dans <table class="tableizer-table"> enlevez class="tableizer-table" donc vous n'avez que <table>
-* Pareil dans <tr class="tableizer-firstrow"> enlevez les attributs de class pour qu'il ne reste que <tr>
+* Enlevez l'information style de `<style type="text/css">` à `</style>`
+* Dans `<table class="tableizer-table">` enlevez class="tableizer-table" donc vous n'avez que `<table>`
+* Pareil dans `<tr class="tableizer-firstrow">` enlevez les attributs de class pour qu'il ne reste que `<tr>`
 
 Allons plus loin en créant un graphique basé sur ce tableau.
 
