@@ -179,9 +179,11 @@ Pour créer un compteur et visualiser facilement votre code, utilisez aussi Code
 
 Une fois notre phrase d'accroche écrite, il faut calculer le changement par seconde. Le code en JavaScript peut s'exprimer ainsi. Cette fonction ne fait pour l'instant que calculer combien Apple ou le sportif que vous avez choisi gagne par seconde.
 
+```javascript
 var annualTotal = 37470000000;
 var amountPerSecond = annualTotal/365/24/60/60; //365 days, 24 hours, 60 minutes, 60 seconds
 console.log("per second amount is "+amountPerSecond);
+```
 
 Cette nouvelle fonction détermine un point de départ à proprement parler, le runningTotal
 
