@@ -155,21 +155,33 @@ Pour progresser avec QGIS, vous n'aurez aucun mal à trouver des tutoriels telle
 
 Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de CSV et nous avons vu quelques formats d'encodage géographiques.
 
+*Tableau interactif*
+
 Mais les data sont presque toujours présentées sous forme de tableau, dans un tableur. Et parfois, c'est aussi la manière la plus efficace de visualiser des données, comme par exemple, [des résultats sportifs](https://projects.fivethirtyeight.com/2020-nba-player-ratings/).
 
-Essayons de créer un tableau interactif sur une page Web. Pour ça, il faut utiliser un langage pour créer du design sur le wew, appelé JavaScript et des "packages" de design appelées libraries.
+Essayons de créer un tableau interactif sur une page Web. Pour ça, il faut utiliser un langage pour créer du design sur le web, appelé JavaScript et des "packages" de design appelées _libraries_.
 
-[Voici le lien vers une library](https://github.hubspot.com/sortable/docs/welcome/) que vous allons utiliser pour créer des tableaux triables. CLiquez sur [ce lien pour aller vers CDNJS](https://cdnjs.com/), un service qui donne accès aux pages CSS et JS correspondant à des *libraries*.
+[Voici le lien vers une _library_](https://github.hubspot.com/sortable/docs/welcome/) que vous allons utiliser pour créer des tableaux triables.
 
-Pour cette partie, nous allons aussi utiliser un service en ligne appelé [Codepen](https://codepen.io/). Cela nous évite de créer tout l'architecture d'une vraie page web.
+Pour nous éviter de créer une feuille de style et un fichier JS, nous allons aussi utiliser [CDNJS](https://cdnjs.com/), un service qui donne accès aux pages CSS et JS correspondant à des *libraries*. C'est comme une grande bibliothèque où on peut trouver les références de nombreuses _libraries_.
+
+Pour encoder le tableau, nous allons nous servir de [Codepen](https://codepen.io/). Cela nous évite de créer toute l'architecture d'une vraie page web tout en ayant un aperçu du résultat final.
 
 Ensuite il faut ajouter un tableau dans la page html. Pour éviter de coder un tableau entier, copiez-collez simplement un tableau dans le site https://tableizer.journalistopia.com/. Tableizer va générer un code html mais aussi un peu de css qu'il faut supprimer (nous allons par la suite ajouter nos propres modifications et attributs).
 
 * Enlevez l'information style de `<style type="text/css">` à `</style>`
-* Dans `<table class="tableizer-table">` enlevez class="tableizer-table" donc vous n'avez que `<table>`
+* Dans `<table class="tableizer-table">` enlevez `class="tableizer-table"`, donc vous n'avez que `<table>`
 * Pareil dans `<tr class="tableizer-firstrow">` enlevez les attributs de class pour qu'il ne reste que `<tr>`
 
-Allons plus loin en créant un graphique basé sur ce tableau.
+Une fois le style enlevé, il faut ajouter les éléments de style mentionneés dans la _library_. Et enfin, rechercher cette dernière dans CDNJS. Nous y trouverons des liens URL à copier dans les paramètres CSS et JS de codepen.
+
+*Graphique interactif*
+
+Une fois le tableau créé, on peut aller plus loin en y associant un graphique. [Utilisez par exemle cette _library_](http://highcharttable.org/#).
+
+De la même manière, en jonglant avec la documentation et CDNJS, il faut rechercher dans la documentation quels éléments et liens sont nécessaires pour associer le fichier html et la feuille JS. [Suivez les étapes grâce à ce screencast](https://youtu.be/_UcsvZqS16Q).
+
+*Compteur*
 
 On peut aussi créer un compteur en JavaScript. Quand les chiffres sont impressionnants, cette visualisation donne un effet d'accumulation ou d'empilement d'une valeur. Pensez à un titre du style "Depuis que vous lisez ceci, tel sportif a gagné ... €".
 
