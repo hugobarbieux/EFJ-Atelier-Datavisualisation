@@ -107,7 +107,7 @@ Utilisation des plateformes Datawrapper et Flourish pour construire des data vis
 
 Pour ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne avec un flag code. [Voici ici](https://docs.google.com/spreadsheets/d/1pS43jfyEFMARm3kZFtjKxzQIAvcVwshX7GqU7fvC8oU/edit?usp=sharing) le tableau des codes scrappés dans GoogleSheet.
 
-Si vous voulez compléter un tableau de données avec un autre tableau, il va falloir les associer. Pour associer deux tableaux, une fonction permet d'éviter les erreurs, [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [RECHERCHEH ou XLOOKUP](https://support.microsoft.com/fr-fr/office/rechercheh-rechercheh-fonction-a3034eec-b719-4ba3-bb65-e1ad662ed95f). Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code.
+Si vous voulez compléter un tableau de données avec un autre tableau, il va falloir les associer. Pour associer deux tableaux, une fonction permet d'éviter les erreurs, [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929). Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code.
 
 ## Localisations et cartes
 
