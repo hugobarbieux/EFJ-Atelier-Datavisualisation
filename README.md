@@ -187,11 +187,14 @@ console.log("per second amount is "+amountPerSecond);
 
 Cette nouvelle fonction détermine un point de départ à proprement parler, le runningTotal
 
+```javascript
 var runningTotal = 0
 document.getElementById('money').innerHTML = runningTotal;
+```
 
 Maintenant un autre code qui augmente le runningTotal par le amountPerSecond
 
+```javascript
 function updateAmount(){
   console.log("updateAmount running");
   console.log(runningTotal);
@@ -199,10 +202,13 @@ function updateAmount(){
   //insert runningTotal into page
   document.getElementById('money').innerHTML = runningTotal;
 }
+```
 
 Et finalement, une ligne de code qui fait fonctionner ces calculs toutes les secondes :
 
+```javascript
 setInterval(updateAmount, 1000); //déclenche la fonction updateAmount toutes les 1000 milliseconds
+```
 
 ## Différentes plateformes
 
