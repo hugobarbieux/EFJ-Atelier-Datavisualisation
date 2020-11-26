@@ -175,7 +175,7 @@ On peut aussi créer un compteur en JavaScript. Quand les chiffres sont impressi
 
 Pour créer un compteur et visualiser facilement votre code, utilisez aussi CodePen. Créez votre texte brut dans la partie HTML. Le chiffre que nous voulons voir changer doit se trouver dans une balise Span et nous devons lui donner un attribut.
 
-<p>Depuis que vous lisez ceci, Apple a gagné<span id="money">0</span> €</p>
+`<p>Depuis que vous lisez ceci, Apple a gagné<span id="money"> 0</span> €</p>`
 
 Une fois notre phrase d'accroche écrite, il faut calculer le changement par seconde. Le code en JavaScript peut s'exprimer ainsi. Cette fonction ne fait pour l'instant que calculer combien Apple ou le sportif que vous avez choisi gagne par seconde.
 
