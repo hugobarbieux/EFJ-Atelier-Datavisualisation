@@ -165,13 +165,42 @@ Pour cette partie, nous allons aussi utiliser un service en ligne appelé [Codep
 
 Ensuite il faut ajouter un tableau dans la page html. Pour éviter de coder un tableau entier, copiez-collez simplement un tableau dans le site https://tableizer.journalistopia.com/. Tableizer va générer un code html mais aussi un peu de css qu'il faut supprimer (nous allons par la suite ajouter nos propres modifications et attributs).
 
-* Enlevez l'inforation style de <style type="text/css"> à </style>
+* Enlevez l'information style de <style type="text/css"> à </style>
 * Dans <table class="tableizer-table"> enlevez class="tableizer-table" donc vous n'avez que <table>
 * Pareil dans <tr class="tableizer-firstrow"> enlevez les attributs de class pour qu'il ne reste que <tr>
 
 Allons plus loin en créant un graphique basé sur ce tableau.
 
-On peut simplement créer un compteur en JavaScript. Quand les chiffres sont impressionnants, cette visualisation donne un effet d'accumulation intéressant.
+On peut aussi créer un compteur en JavaScript. Quand les chiffres sont impressionnants, cette visualisation donne un effet d'accumulation ou d'empilement d'une valeur. Pensez à un titre du style "Depuis que vous lisez ceci, tel sportif a gagné ... €".
+
+Pour créer un compteur et visualiser facilement votre code, utilisez aussi CodePen. Créez votre texte brut dans la partie HTML. Le chiffre que nous voulons voir changer doit se trouver dans une balise Span et nous devons lui donner un attribut.
+
+<p>Depuis que vous lisez ceci, Apple a gagné<span id="money">0</span> €</p>
+
+Une fois notre phrase d'accroche écrite, il faut calculer le changement par seconde. Le code en JavaScript peut s'exprimer ainsi. Cette fonction ne fait pour l'instant que calculer combien Apple ou le sportif que vous avez choisi gagne par seconde.
+
+var annualTotal = 37470000000;
+var amountPerSecond = annualTotal/365/24/60/60; //365 days, 24 hours, 60 minutes, 60 seconds
+console.log("per second amount is "+amountPerSecond);
+
+Cette nouvelle fonction détermine un point de départ à proprement parler, le runningTotal
+
+var runningTotal = 0
+document.getElementById('money').innerHTML = runningTotal;
+
+Maintenant un autre code qui augmente le runningTotal par le amountPerSecond
+
+function updateAmount(){
+  console.log("updateAmount running");
+  console.log(runningTotal);
+  runningTotal = runningTotal+amountPerSecond;
+  //insert runningTotal into page
+  document.getElementById('money').innerHTML = runningTotal;
+}
+
+Et finalement, une ligne de code qui fait fonctionner ces calculs toutes les secondes :
+
+setInterval(updateAmount, 1000); //déclenche la fonction updateAmount toutes les 1000 milliseconds
 
 ## Différentes plateformes
 
