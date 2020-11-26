@@ -99,15 +99,15 @@ Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). 
 
 ## Graphiques et tableaux
 
-Ce que nous apprend la couverture médiatique de la crise du coronavirus.
-
 Utilisation des plateformes Datawrapper et Flourish pour construire des data visualisations interactives.
 
-[Allez dans la documentation](https://academy.datawrapper.de/category/77-tables) pour personnaliser ses tableaux.
+[Allez dans la documentation](https://academy.datawrapper.de/category/77-tables) de Datawrapper pour savoir comment personnaliser ses tableaux.
 
-Pour ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne avec un flag code. [Voici ici](https://docs.google.com/spreadsheets/d/1pS43jfyEFMARm3kZFtjKxzQIAvcVwshX7GqU7fvC8oU/edit?usp=sharing) le tableau des codes scrappés dans GoogleSheet.
+Par exemple, our ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne avec un flag code. [Voici ici](https://docs.google.com/spreadsheets/d/1pS43jfyEFMARm3kZFtjKxzQIAvcVwshX7GqU7fvC8oU/edit?usp=sharing) le tableau des codes scrappés dans GoogleSheet.
 
-Si vous voulez compléter un tableau de données avec un autre tableau, il va falloir les associer. Pour associer deux tableaux, une fonction permet d'éviter les erreurs, [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929). Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code.
+Il faut donc associer votre base de données avec la liste des code drapeaux. Copiez les codes drapeaux dans une nouvelle feuille Excel de votre fichier de données et faites une RECHERCHEV pour rapatrier la colone drapeaux près de la colonne pays.
+
+Si vous voulez compléter un tableau de données avec un autre tableau, il va falloir les associer. Pour associer deux tableaux, il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux. Les fonctions [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code.
 
 ## Localisations et cartes
 
