@@ -159,7 +159,7 @@ Mais les data sont presque toujours présentées sous forme de tableau, dans un 
 
 Essayons de créer un tableau interactif sur une page Web. Pour ça, il faut utiliser un langage pour créer du design sur le wew, appelé JavaScript et des "packages" de design appelées libraries.
 
-[Voici le lien vers une library](https://github.hubspot.com/sortable/docs/welcome/) que vous allons utiliser pour créer des tableaux triables. CLiquez sur [ce lien pour aller vers CDJS](https://cdnjs.com/), un service qui donne accès aux pages CSS et JS correspondant à des *libraries*.
+[Voici le lien vers une library](https://github.hubspot.com/sortable/docs/welcome/) que vous allons utiliser pour créer des tableaux triables. CLiquez sur [ce lien pour aller vers CDNJS](https://cdnjs.com/), un service qui donne accès aux pages CSS et JS correspondant à des *libraries*.
 
 Pour cette partie, nous allons aussi utiliser un service en ligne appelé [Codepen](https://codepen.io/). Cela nous évite de créer tout l'architecture d'une vraie page web.
 
