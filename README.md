@@ -24,7 +24,7 @@ Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 ## Évaluation
 
-Pitcher une idée de datavisualisation en quelques lignes comme si on voulait vendre un sujet à un rédacteur en chef. Réaliser cette data visualisation de manière informative, originale et esthétique. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
+Pitcher en quelques lignes une idée de sujet soutenue par deux data visualisations comme si on voulait vendre un sujet à un rédacteur en chef. Réaliser ces data visualisations de manière informative, originale et esthétique. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/). Expliquer en quelques lignes pourquoi avoir choisi ces dataviz.
 
 ## Introduction
 
