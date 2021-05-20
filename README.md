@@ -10,26 +10,28 @@ Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
 ## Synopsis
 
-Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension du journalisme de données pour s'adapter aux nouveaux outils à venir.
+Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension du journalisme de données (data journalism) pour s'adapter aux nouveaux numériques outils à venir.
 
-Les étudiants verront clairement dans quelle mesure une base de données est une mise en forme particulière de l'information, une architecture singulière, de sorte que ces informations soient interprétables par un ordinateur. De ce fait, les étudiants comprendront comment un programme de visualisation fonctionne et pourront ainsi adapter et nettoyer leurs bases de données en fonction des outils qu'ils choisiront d'utiliser.
+L'industrie de l'information est de plus en plus assistée par ordinateur. Il est donc essentiel de pouvoir récupérer des informations et des données via des applications numériques et donc de pouvoir "parler" à un ordinateur dans sa langue.
+
+Les étudiants se rendront clairement compte de la mise en forme particulière de l'information en base de données, une architecture singulière, de sorte que ces informations soient interprétables par un ordinateur. De ce fait, les étudiants comprendront comment un programme de visualisation fonctionne et pourront ainsi adapter et nettoyer leurs bases de données en fonction des outils qu'ils choisiront d'utiliser.
 
 Ils pourront à la fin de cet atelier identifier quelle visualisation est la mieux appropriée à l'information qu'ils veulent transmettre et déterminer l'esthétique et l'identité visuelle de leur projet, que ce soit un graphique à barres, un nuage de points, une boîte à moustaches ou une carte.
 
 ## Aboutissement
 
-Créer des data visualisations avec différents programmes et pour différentes plateformes.
+Créer des data visualisations grâce à différents programmes et en fonction de différentes plateformes.
 
 Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 ## Évaluation
 
-Pour cet atelier, les étudiants devront se mettre dans la peau d'un "visual journalist" qui désire publier une idée de sujet originale comme si on voulait vendre un sujet à un rédacteur en chef. Il faudra donc pitcher en quelques lignes une idée de sujet, soutenue par deux data visualisations, ainsi que quelques lignes afin de mettre les visuels en contexte. Les étudiants devront en plus justifier brièvement le choix des data visualisations afin de décrire l'intention de ces visuels en décrivant les codes, les couleurs, les échelles utilisés. Réaliser ces data visualisations de manière informative, originale et surtout pertinente. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
+Pour réussir l'évaluation, les étudiants devront se mettre dans la peau d'un "visual journalist" qui désire publier une idée de sujet originale, comme si ils voulaient vendre un sujet à un rédacteur en chef. Il faudra donc pitcher en quelques lignes une idée de sujet d'actualité, soutenue par deux data visualisations, ainsi que quelques lignes afin de mettre les visuels en contexte. Les étudiants devront en plus justifier brièvement le choix des data visualisations afin de décrire l'intention de ces visuels en décrivant les codes, les couleurs, les échelles utilisés (catégorique, séquentielle, ...). Réaliser ces data visualisations de manière informative, originale et surtout pertinente. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
 
 ## Introduction
 
-Quelques exemples, le champ des possibles en data visualisations.
-Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier ces exemples parmi les publications les plus prestigieuses... et pourquoi pas, reproduire ces visualisations.
+Quelques exemples vus dans la presse mondiale, le champ des possibles en data visualisations.
+Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier les data visualisations parmi les publications les plus prestigieuses... et pourquoi pas, les reproduire.
 
 À voir :
 
@@ -39,7 +41,9 @@ Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démyst
 
 ## Repères théoriques
 
-Quoi de plus compliqué que des chiffres dans un tableau Excel ? Mettre en forme ces chiffres pour rendre l'information compréhensible pour notre cerveau et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
+Quoi de plus compliqué à lire que des chiffres dans un tableau Excel ? Si, pour un ordinateur, le classement en base est idéal pour effectuer des calculs, pour le cerveau humain, c'est la galère pour démêler une information dans ce maillage de chiffres.
+
+Une infographie permet de mettre en forme efficacement ces chiffres pour rendre l'information qu'ils contiennent compréhensible pour nous et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
 
 #### De quoi est composée une datavisualisation :
 
@@ -75,21 +79,21 @@ Parfois, créer une data visualisation ne sert pas seulement à agrémenter son 
 
 Avec une data visualisation, les données se retrouvent en contexte, on se rend alors mieux compte des éventuelles faiblesses de ses données (faut-il chercher d'autres données ?) ou s'il existe d'autres angles intéressants à traiter.
 
-Pour vous entrainer avec Inzight, utilisez une base de donnée existante. Aller dans File > Dataset examles. Dans le menu déroulant à gauche, choisissez Future Learn, puis Gapminder. Cliquez sue le bouton Select Set et cliquez sur Visualize.
+Pour vous entrainer avec Inzight, utilisez une base de donnée existante. Aller dans _File > Dataset examles_. Dans le menu déroulant à gauche, choisissez Future Learn, puis Gapminder. Cliquez sue le bouton Select Set et cliquez sur Visualize.
 
 Par défaut, Inzight met la première colonne dans la première variable. Essayez avec GDPpercapita. Inzight affiche alors un nuage de points (ou Scatter Plot). La majorité des points est à gauche, signifiant que la plupart des pays ont un GDPpercapita faible.
 
-Selectionnez une seconde variable. Par exemple, Childrenperwoman. Le Scatter Plot change mais est très encombré. Il faudrait aussi subdiviser par année. Faites alors Subset by. Mais selectionnez Year_cat. Year_cat est en fait la colonne Year mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
+Sélectionnez une seconde variable. Par exemple, Childrenperwoman. Le Scatter Plot change mais est très encombré. Il faudrait aussi subdiviser par année. Faites alors Subset by. Mais selectionnez Year_cat. Year_cat est en fait la colonne Year mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
 
-Si vous cliquez sur le bouton Add to plot, puis, plus bas, Group by et selectionnez Continent, les points (qui représentent les pays) vont prendre une couleur selon la région du globe. Pour nommer les points, vous devez remonter dans le menu déroulant et choisir Identify points puis Text label, puis Country.
+Si vous cliquez sur le bouton Add to plot, puis, plus bas, Group by et sélectionnez Continent, les points (qui représentent les pays) vont prendre une couleur selon la région du globe. Pour nommer les points, vous devez remonter dans le menu déroulant et choisir Identify points puis Text label, puis Country.
 
 Essayez de changer la seconde variable. Un Scatter Plot vous permet d'effectuer un lien. Par exemple, les femmes ont plus d'enfants dans les pays pauvres. Regardez maintenant les valeurs extrêmes. Par exemple, dans les années 80, les EAU avaient un taux d'enfants par femme élevé pour un GDP élevé, à l'inverse des autres pays. Il y a peut-être des facteurs culturels ou autre qui expliquent le nombre d'enfants. Ceci pourrait être un sujet à investiguer ou à expliquer.
 
 Il faut donc intégrer une notion très importante : la différence entre **corrélation et correspondance**.
 
-## Mise en formes des données
+## Mise en forme des données
 
-Certaines bases de données ne sont pas au bon format. Elle sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine peut être necessaire pour passer un tableau du format large au format long.
+Certaines bases de données ne sont pas au bon format. Elle sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
 
 [Guide d'installation d'OpenRefine](https://openrefine.org/download.html)
 
@@ -107,9 +111,9 @@ Par exemple, pour ajouter un drapeau devant un nom de pays dans un tableau Dataw
 
 Il faut donc associer votre base de données avec la liste des code drapeaux. Copiez les codes drapeaux dans une nouvelle feuille Excel de votre fichier de données et faites une RECHERCHEV pour rapatrier la colone drapeaux près de la colonne pays.
 
-Bien souvent, une base de données seule ne suffit pas à contruire une data visualusation, donc il faudra y associer une autre base.
+Bien souvent, une base de données seule ne suffit pas à construire une data visualisation, donc il faudra y associer une autre base.
 
-Pour associer deux tableaux, ils doivent impérativement avoir une colonne en commun, et si possible une colonne qui  il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux. Les fonctions [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code. Un code (comme un code ISO pour les abbréviations de pays) est universellement reconnu et facilitera la jointure entre les tableaux.
+Pour associer deux tableaux, ils doivent impérativement avoir une colonne en commun, et si possible une colonne qui  il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux. Les fonctions [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code. Un code (comme un code ISO pour les abréviations de pays) est universellement reconnu et facilitera la jointure entre les tableaux.
 
 ## Localisations et cartes
 
@@ -136,11 +140,11 @@ Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez "
 
 Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial).
 
-Pour donner une valeur aux points, il faut fusionner le avec une autre base données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Encore une fois, préférez le code établissement au nom de l'établissement.
+Pour donner une valeur aux points, il faut fusionner le avec une autre base de données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Encore une fois, préférez le code établissement au nom de l'établissement.
 
 Peut-être verrez-vous des répartitions de bons et moins bons lycées réunis dans certains départements et peut-être serez-vous tentés d'établir un lien entre le niveau de vie et la réussite scolaire. Par contre si votre but est de faire une relation, un graphique en forme de nuage de points sera utile pour renforcer votre propos. Mais attention aux biais cognitifs et appuyez toujours votre propos par un avis d'expert.
 
-Dans Flourish, quelques templates existent déjà pour créer des cartes très rapidement. France, Royaume-Uni, États-Unis, etc. Mais pour votre sujet, vous aurez peut-être besoin d'un autre template qui ne figure pas dans la bibliothèque. Flourish permet d'importer des templates parsonnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
+Dans Flourish, quelques templates existent déjà pour créer des cartes très rapidement. France, Royaume-Uni, États-Unis, etc. Mais pour votre sujet, vous aurez peut-être besoin d'un autre template qui ne figure pas dans la bibliothèque. Flourish permet d'importer des templates personnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
 
 Pour importer une nouvelle carte dans Flourish, vous aurez besoin d'un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
 
@@ -148,15 +152,15 @@ Pour importer une nouvelle carte dans Flourish, vous aurez besoin d'un fichier d
 
 Datawrapper contient beaucoup plus de templates et présente un style plus classique. Cliquez sur "Create a new map" en haut de l'écran. Ensuite choisissez le type de carte (symbol map pour des points). Dans un premier temps, affinez la zone géographique grâce à la barre de recherche. Si vous ne trouvez pas la zone géographique (par exemple les communes françaises ne sont pas dans Datawrapper), vous pouvez l'importer de façon assez similaire qu'avec Flourish.
 
-Cliquez sur "proceed" et puis sur "import your dataset". Plusieurs fenêtres vont s'afficher avec des indications à respecter. Veillez à bien selectionner vos colonnes latitude et longitudes pour une carte de points. Si c'est le cas, la carte apparaîtra avec vos points. Cliquez sur "proceed" et personnalisez votre carte avec les fonctiosn habituelles de Datawrapper. La documentation est encore ici d'une grande aide, tant les options de Datawrapper sont nombreuses.
+Cliquez sur "proceed" et puis sur "import your dataset". Plusieurs fenêtres vont s'afficher avec des indications à respecter. Veillez à bien sélectionner vos colonnes latitude et longitudes pour une carte de points. Si c'est le cas, la carte apparaîtra avec vos points. Cliquez sur "proceed" et personnalisez votre carte avec les fonctions habituelles de Datawrapper. La documentation est encore ici d'une grande aide, tant les options de Datawrapper sont nombreuses.
 
 Comme d'habitude, il est crucial de donner un titre et de sourcer ses datavisualisations.
 
 *QGIS*
 
-QGIS est un logiciel de cartographie très avancé (GIS signifie Geographic Information System) qui est utilisé par tout "visual journalist" désireux de contruire des cartes précises, et de niveau professionnel. Il fonctionne sur le principe des calques comme d'autres logiciels de traitement d'image dans le style de Photoshop. [Téléchargez QGIS](https://www.qgis.org/fr/site/forusers/download.html) et installez-le. Pour débuter avec QGIS, téléchargez [sur Natural Earth](https://www.naturalearthdata.com/downloads) des jeux de data pour créer une carte du monde. Sélectionnez Cultural.
+QGIS est un logiciel de cartographie très avancé (GIS signifie Geographic Information System) qui est utilisé par tout "visual journalist" désireux de construire des cartes précises, et de niveau professionnel. Il fonctionne sur le principe des calques comme d'autres logiciels de traitement d'image dans le style de Photoshop. [Téléchargez QGIS](https://www.qgis.org/fr/site/forusers/download.html) et installez-le. Pour débuter avec QGIS, téléchargez [sur Natural Earth](https://www.naturalearthdata.com/downloads) des jeux de data pour créer une carte du monde. Sélectionnez Cultural.
 
-Vous pouvez tout antant télécharger sur data.gouv.fr le jeu de données cartogrpahiques ADMIN EXPRESS (sous forme de Shape Files .shp) pour la France, édité par l'IGN.
+Vous pouvez tout antant télécharger sur data.gouv.fr le jeu de données cartographiques ADMIN EXPRESS (sous forme de Shape Files .shp) pour la France, édité par l'IGN.
 
 Pour progresser avec QGIS, vous n'aurez aucun mal à trouver de la documentation et des tutoriels, tant ce programme est puissant et populaire. Le [journaliste du Financial Times Steven Bernard](https://twitter.com/sdbernard?lang=fr) a d'ailleurs rendu public une série de tutoriels [sur sa chaîne YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R&app=desktop).
 
@@ -182,11 +186,11 @@ Ensuite il faut ajouter un tableau dans la page html. Pour éviter de coder un t
 * Dans `<table class="tableizer-table">` enlevez `class="tableizer-table"`, donc vous n'avez que `<table>`
 * Pareil dans `<tr class="tableizer-firstrow">` enlevez les attributs de class pour qu'il ne reste que `<tr>`
 
-Une fois le style enlevé, il faut ajouter les éléments de style mentionneés dans la _library_. Et enfin, rechercher cette dernière dans CDNJS. Nous y trouverons des liens URL à copier dans les paramètres CSS et JS de codepen.
+Une fois le style enlevé, il faut ajouter les éléments de style mentionnées dans la _library_. Et enfin, rechercher cette dernière dans CDNJS. Nous y trouverons des liens URL à copier dans les paramètres CSS et JS de codepen.
 
 *Graphique interactif*
 
-Une fois le tableau créé, on peut aller plus loin en y associant un graphique. [Utilisez par exemle cette _library_](http://highcharttable.org/#).
+Une fois le tableau créé, on peut aller plus loin en y associant un graphique. [Utilisez par exemple cette _library_](http://highcharttable.org/#).
 
 De la même manière, en jonglant avec la documentation et CDNJS, il faut rechercher dans la documentation quels éléments et liens sont nécessaires pour associer le fichier html et la feuille JS. [Suivez les étapes grâce à ce screencast](https://youtu.be/_UcsvZqS16Q).
 
