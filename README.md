@@ -103,7 +103,7 @@ Pour interpréter une boîte à moustaches, il faut soustraire la valeur du 3e q
 
 ## Nettoyage des données
 
-Certaines bases de données ne sont pas au bon format. Elle sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
+Certaines bases de données ne sont pas au bon format. Elles sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
 
 [Guide d'installation d'OpenRefine](https://openrefine.org/download.html)
 
@@ -119,7 +119,7 @@ Utilisation des plateformes Datawrapper et Flourish pour construire des data vis
 
 Par exemple, pour ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne à vos données avec un "flag code".  Il sera nécessaire de "scrapper" le tableau des codes avec la formule "=IMPORTHTML()" dans Google Sheets.
 
-Il faut donc associer votre base de données avec la liste des code drapeaux. Copiez les codes drapeaux dans une nouvelle feuille Excel de votre fichier de données et faites une RECHERCHEV pour rapatrier la colone drapeaux près de la colonne pays.
+Il faut donc associer votre base de données avec la liste des code drapeaux. Copiez les codes drapeaux dans une nouvelle feuille Excel de votre fichier de données et faites une RECHERCHEV pour rapatrier la colonne drapeaux près de la colonne pays.
 
 Bien souvent, une base de données seule ne suffit pas à construire une data visualisation, donc il faudra y associer une autre base.
 
@@ -131,7 +131,7 @@ Comment parler de data visualisations sans évoquer les cartes ? Mais la localis
 
 Attention à ne pas abuser des cartes et se faire abuser par leur très grande force esthétique. Voyez quand utiliser des cartes et quand ne pas les utiliser. [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
 
-Les cartes sont à utiliser pour représenter des répartitions géographiques. Et bien souvent, une carte seule ne suffit pas et devra être accompagnée d'autres graphes ou cartes pour compléter et contextualiser l'information. Par exemple, à l'issue de l'élection présidentielle aux États-Unis, [le New York Times a publié pas mois de quatre cartes](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html) ainsi que des cartes complémentaires sur une même page.
+Les cartes sont à utiliser pour représenter des répartitions géographiques. Et bien souvent, une carte seule ne suffit pas et devra être accompagnée d'autres graphes ou cartes pour compléter et contextualiser l'information. Par exemple, à l'issue de l'élection présidentielle aux États-Unis, [le New York Times a publié pas moins de quatre cartes](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html) ainsi que des cartes complémentaires sur une même page.
 
 Dans cet exemple, la cartographie se justifie totalement car elle rend parfaitement compte de la fracture entre les États du Nord et les États du Sud des États-Unis et entre le vote rural et urbain.
 
