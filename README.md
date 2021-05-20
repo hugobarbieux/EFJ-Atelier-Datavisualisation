@@ -1,6 +1,6 @@
 # EFJ - Atelier data visualisations
 
-Ce repository contient les éléments pour l'atelier de data visualisations pour les étudiants de l'EFJ.
+Ce répertoire contient les éléments pour l'atelier de data visualisations pour les étudiants de l'EFJ.
 
 Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
@@ -10,11 +10,11 @@ Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
 ## Synopsis
 
-Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension pour s'adapter aux nouveaux outils à venir.
+Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension du journalisme de données pour s'adapter aux nouveaux outils à venir.
 
-Les étudiants verront clairement en quoi une base de données est une mise en forme particulière de l'information de sorte que ces informations soient interprétables par un ordinateur. De ce fait, les étudiants comprendront comment un programme de visualisation fonctionne et pourront ainsi adapter et nettoyer leurs bases de données en fonction des outils qu'ils choisiront d'utiliser.
+Les étudiants verront clairement dans quelle mesure une base de données est une mise en forme particulière de l'information, une architecture singulière, de sorte que ces informations soient interprétables par un ordinateur. De ce fait, les étudiants comprendront comment un programme de visualisation fonctionne et pourront ainsi adapter et nettoyer leurs bases de données en fonction des outils qu'ils choisiront d'utiliser.
 
-Ils pourront à la fin de cet atelier identifier quelle visualisation est la mieux appropriée à l'information qu'ils veulent transmettre et déterminer l'esthétique et l'identité visuelle de leur projet.
+Ils pourront à la fin de cet atelier identifier quelle visualisation est la mieux appropriée à l'information qu'ils veulent transmettre et déterminer l'esthétique et l'identité visuelle de leur projet, que ce soit un graphique à barres, un nuage de points, une boîte à moustaches ou une carte.
 
 ## Aboutissement
 
@@ -24,7 +24,7 @@ Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 ## Évaluation
 
-Pitcher en quelques lignes une idée de sujet soutenue par deux data visualisations comme si on voulait vendre un sujet à un rédacteur en chef. Réaliser ces data visualisations de manière informative, originale et esthétique. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/). Expliquer en quelques lignes pourquoi avoir choisi ces dataviz.
+Pour cet atelier, les étudiants devront se mettre dans la peau d'un "visual journalist" qui désire publier une idée de sujet originale comme si on voulait vendre un sujet à un rédacteur en chef. Il faudra donc pitcher en quelques lignes une idée de sujet, soutenue par deux data visualisations, ainsi que quelques lignes afin de mettre les visuels en contexte. Les étudiants devront en plus justifier brièvement le choix des data visualisations afin de décrire l'intention de ces visuels en décrivant les codes, les couleurs, les échelles utilisés. Réaliser ces data visualisations de manière informative, originale et surtout pertinente. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
 
 ## Introduction
 
@@ -89,13 +89,13 @@ Il faut donc intégrer une notion très importante : la différence entre **corr
 
 ## Mise en formes des données
 
-Certaines bases de données ne sont pas au bon format. Elle sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine est necessaire.
+Certaines bases de données ne sont pas au bon format. Elle sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine peut être necessaire pour passer un tableau du format large au format long.
 
 [Guide d'installation d'OpenRefine](https://openrefine.org/download.html)
 
 [Tutoriel pour le nettoyage OpenRefine](https://blog.ouseful.info/2012/07/30/data-shaping-in-google-refine-generating-new-rows-from-multiple-values-in-a-single-column/).
 
-Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). Mais OpenRefine est régulièrement mis à jour et permet bien d'autres choses.
+Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). Mais OpenRefine est régulièrement mis à jour et permet bien d'autres opérations. C'est un outil que chaque data journaliste a installé d'office sur son ordinateur.
 
 ## Graphiques et tableaux
 
@@ -103,57 +103,66 @@ Utilisation des plateformes Datawrapper et Flourish pour construire des data vis
 
 [Allez dans la documentation](https://academy.datawrapper.de/category/77-tables) de Datawrapper pour savoir comment personnaliser ses tableaux.
 
-Par exemple, our ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne avec un flag code. [Voici ici](https://docs.google.com/spreadsheets/d/1pS43jfyEFMARm3kZFtjKxzQIAvcVwshX7GqU7fvC8oU/edit?usp=sharing) le tableau des codes scrappés dans GoogleSheet.
+Par exemple, pour ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne à vos données avec un "flag code".  Il sera nécessaire de "scrapper" le tableau des codes avec la formule "=IMPORTHTML()" dans Google Sheets.
 
 Il faut donc associer votre base de données avec la liste des code drapeaux. Copiez les codes drapeaux dans une nouvelle feuille Excel de votre fichier de données et faites une RECHERCHEV pour rapatrier la colone drapeaux près de la colonne pays.
 
-Si vous voulez compléter un tableau de données avec un autre tableau, il va falloir les associer. Pour associer deux tableaux, il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux. Les fonctions [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code.
+Bien souvent, une base de données seule ne suffit pas à contruire une data visualusation, donc il faudra y associer une autre base.
+
+Pour associer deux tableaux, ils doivent impérativement avoir une colonne en commun, et si possible une colonne qui  il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux. Les fonctions [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code. Un code (comme un code ISO pour les abbréviations de pays) est universellement reconnu et facilitera la jointure entre les tableaux.
 
 ## Localisations et cartes
 
 Comment parler de data visualisations sans évoquer les cartes ? Mais la localisation de données passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
 
-Attention à ne pas en abuser. Quand utiliser des cartes et quand ne pas les utiliser ? [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
+Attention à ne pas abuser des cartes et se faire abuser par leur très grande force esthétique. Voyez quand utiliser des cartes et quand ne pas les utiliser. [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
 
-Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/?fbclid=IwAR0P_IubPRRQQpTttFquKOeMrEVKFx4_DmS5y6ee7mXMkpA_4Hk8ZusBoIE) ont publié une [carte des violences policières durant les manifestations BLM de 2020](https://usprotests.forensic-architecture.org/). Utilisation des [données rendues disponibles](https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit?usp=sharing) pour reproduire une carte similaire.
+Les cartes sont à utiliser pour représenter des répartitions géographiques. Et bien souvent, une carte seule ne suffit pas et devra être accompagnée d'autres graphes ou cartes pour compléter et contextualiser l'information. Par exemple, à l'issue de l'élection présidentielle aux États-Unis, [le New York Times a publié pas mois de quatre cartes](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html) ainsi que des cartes complémentaires sur une même page.
+
+Dans cet exemple, la cartographie se justifie totalement car elle rend parfaitement compte de la fracture entre les États du Nord et les États du Sud des États-Unis et entre le vote rural et urbain.
+
+Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/?fbclid=IwAR0P_IubPRRQQpTttFquKOeMrEVKFx4_DmS5y6ee7mXMkpA_4Hk8ZusBoIE) ont publié une [carte des violences policières durant les manifestations BLM de 2020](https://usprotests.forensic-architecture.org/). On peut utiliser des [données rendues disponibles](https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit?usp=sharing) pour reproduire une carte similaire.
+
 
 #### Utilisation des programmes Flourish, Datawrapper et QGIS pour personnaliser au maximum des cartes.
 
 *Flourish*
 
-Une carte est donc extrêmement utile pour repérer des répartitions géographiques (geographic patterns). Flourish rend facile la localisation de points sur une carte. Veillez à avoir ces deux éléments dans vos datasets, une longitude et une latitude (parfois respectivement nommées x et y).
+Une carte est donc extrêmement utile pour repérer des répartitions géographiques (geographic patterns). Flourish rend facile la localisation de points sur une carte. Pour localiser des points, veillez à avoir une colonne longitude et une colonne latitude dans votre base de données (parfois respectivement nommées x et y).
 
-Ces données de la [police britannique](https://data.police.uk/data/) marchent parfaitement et vous pouvez facilement pointer les faits de criminalité sur une carte.
+Ces données de la [police britannique](https://data.police.uk/data/) marchent parfaitement pour pointer les faits de criminalité sur une carte.
 
-Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez Category dot map. Comme toujours avec Flourish, ouvrez les data pour voir comment le template est encodé et aubesoin, nettoyez et adaptez vos données. Allez dans l'onglet data. Les colonnes latitude, longitude et category sont les plus importantes. Cette dernière est reliée à la colonne Category de l'onglet Categories.
+Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez "Category dot map". Comme toujours avec Flourish, ouvrez les data d'abord pour voir comment le template est encodé et au besoin, nettoyez et adaptez vos données en adéquation avec le template de Flourish. Les colonnes latitude, longitude et category sont les plus importantes. Cette dernière est reliée à la colonne Category de l'onglet Categories.
 
 Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial).
 
 Pour donner une valeur aux points, il faut fusionner le avec une autre base données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Encore une fois, préférez le code établissement au nom de l'établissement.
 
-Peut-être verrez-vous des répartitions de bons et moins bons lycées à certains endroits. Par contre si votre but est de faire une relation entre niveau de vie et réussie, préférez un graphique comme un nuage de points.
+Peut-être verrez-vous des répartitions de bons et moins bons lycées réunis dans certains départements et peut-être serez-vous tentés d'établir un lien entre le niveau de vie et la réussite scolaire. Par contre si votre but est de faire une relation, un graphique en forme de nuage de points sera utile pour renforcer votre propos. Mais attention aux biais cognitifs et appuyez toujours votre propos par un avis d'expert.
 
+Dans Flourish, quelques templates existent déjà pour créer des cartes très rapidement. France, Royaume-Uni, États-Unis, etc. Mais pour votre sujet, vous aurez peut-être besoin d'un autre template qui ne figure pas dans la bibliothèque. Flourish permet d'importer des templates parsonnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
 
-Dans Flourish, quelques templates existent déjà pour créer des cartes. France, Royaume-Uni, États-Unis, etc. Mais pour vos propres besoins, vous aurez peut-être besoin d'un autre template. Flourish permet d'importer des templates parsonnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
-
-Pour localiser des régions ou des points, Flourish demande un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
+Pour importer une nouvelle carte dans Flourish, vous aurez besoin d'un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
 
 *Datawrapper*
 
-Datawrapper contient beaucoup plus de templates et présente un style plus classique. Cliquez sur Create a new map en haut de l'écran. Ensuite choisissez le type de carte (symbol map pour des points). Dans un premier temps, affinez la zone géographique grâce à la barre de recherche. Si vous ne trouvez pas la zone géographique, vous pouvez l'importer. Testez-vous en essayant de trouver un fichier JSON des arrondissements de Paris sur le site de l'IGN.
+Datawrapper contient beaucoup plus de templates et présente un style plus classique. Cliquez sur "Create a new map" en haut de l'écran. Ensuite choisissez le type de carte (symbol map pour des points). Dans un premier temps, affinez la zone géographique grâce à la barre de recherche. Si vous ne trouvez pas la zone géographique (par exemple les communes françaises ne sont pas dans Datawrapper), vous pouvez l'importer de façon assez similaire qu'avec Flourish.
 
-Cliquez sur proceed et puis sur import your dataset. Plusieurs fenêtres vont s'afficher avec des indications à respecter. Veillez à bien selectionner vos colonnes latitude et longitudes pour une carte de points. Si c'est le cas, la carte apparaîtra avec vos points. Cliquez sur proceed et personnalisez votre carte avec les fonctiosn habituelles de Datawrapper. La documentation est encore ici d'une grande aide.
+Cliquez sur "proceed" et puis sur "import your dataset". Plusieurs fenêtres vont s'afficher avec des indications à respecter. Veillez à bien selectionner vos colonnes latitude et longitudes pour une carte de points. Si c'est le cas, la carte apparaîtra avec vos points. Cliquez sur "proceed" et personnalisez votre carte avec les fonctiosn habituelles de Datawrapper. La documentation est encore ici d'une grande aide, tant les options de Datawrapper sont nombreuses.
+
+Comme d'habitude, il est crucial de donner un titre et de sourcer ses datavisualisations.
 
 *QGIS*
 
-QGIS est un logiciel de cartographie professionnel. Il fonctionne sur le principe des calques comme d'autres logiciels de traitement d'image. Pour débuter avec QGIS, téléchargez [sur Natural Earth](https://www.naturalearthdata.com/downloads) des jeux de data pour créer une carte du monde. Sélectionnez Cultural. Dans QGIS, faites Add Layer > Vector Layer et cherchez, dans votre dossier Natural Earth, un fichier "Shapefile" (se terminant par .shp).
+QGIS est un logiciel de cartographie très avancé (GIS signifie Geographic Information System) qui est utilisé par tout "visual journalist" désireux de contruire des cartes précises, et de niveau professionnel. Il fonctionne sur le principe des calques comme d'autres logiciels de traitement d'image dans le style de Photoshop. [Téléchargez QGIS](https://www.qgis.org/fr/site/forusers/download.html) et installez-le. Pour débuter avec QGIS, téléchargez [sur Natural Earth](https://www.naturalearthdata.com/downloads) des jeux de data pour créer une carte du monde. Sélectionnez Cultural.
 
-Pour progresser avec QGIS, vous n'aurez aucun mal à trouver des tutoriels tellement ce programme est puissant et populaire. Le [journaliste du Financial Times Steven Bernard](https://twitter.com/sdbernard?lang=fr) a d'ailleurs rendu public une séries de tutoriels [sur sa chaîne YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R&app=desktop).
+Vous pouvez tout antant télécharger sur data.gouv.fr le jeu de données cartogrpahiques ADMIN EXPRESS (sous forme de Shape Files .shp) pour la France, édité par l'IGN.
 
+Pour progresser avec QGIS, vous n'aurez aucun mal à trouver de la documentation et des tutoriels, tant ce programme est puissant et populaire. Le [journaliste du Financial Times Steven Bernard](https://twitter.com/sdbernard?lang=fr) a d'ailleurs rendu public une série de tutoriels [sur sa chaîne YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R&app=desktop).
 
 ## Code et interactivité
 
-Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de CSV et nous avons vu quelques formats d'encodage géographiques.
+Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de fichiers avec l'extension .csv (comma separated value) et nous avons vu quelques formats d'encodage géographiques (.geojson, .shp, ...)
 
 *Tableau interactif*
 
@@ -224,12 +233,9 @@ setInterval(updateAmount, 1000); //déclenche la fonction updateAmount toutes le
 
 ## Différentes plateformes
 
-De la presse écrite aux réseaux sociaux. Exemple d'une Une du New York Times.
+Il est important de se construire une culture générale et visuelle pour affiner ses propres data visualisation.
+Dans les slides, n'hésitez pas à revenir sur les exemples vus au cours, comme les excellentes ressources du Financial Times, de Five Thirty Eight (créé par le célèbre Nate Silver) ou encore The Economist. Les data visualisations se déclinent partout, de la presse écrite aux réseaux sociaux, voir l'exemple d'une Une iconique du New York Times.
 
-Un dérivé de la visualisation : l'audiolisation, comme le permet l'appli TwoTone.
+La data visualisation se décline aussi en son. On appelle ça l'audiolisation, comme le permet l'application TwoTone.
 
-Focus sur l'excellent (et inspirant) travail de Mona Chalabi sur Instagram et TikTok.
-
-## Pour aller plus loin
-
-L'intérêt de R et du partage des données. Cas concret des données du coronavirus.
+Enfin, pour toucher de nouoveaux publics, pourquoi ne pas rivaliser d'imagination en s'inspirant du travail de Mona Chalabi sur Instagram et TikTok.
