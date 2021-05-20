@@ -93,7 +93,15 @@ Essayez de changer la seconde variable. Un Scatter Plot vous permet d'effectuer 
 
 Il faut donc intégrer une notion très importante : la différence entre **corrélation et correspondance**.
 
-## Mise en forme des données
+## Boîtes à moustaches (« Box Plots »)
+
+Un grand intérêt de Inzight, c’est l’intégration de données statistiques aux graphiques. En effet, Inzight est un outil créé sur la base d’un code en R, un programme spécialement destiné à l’analyse statistique.
+
+Les boîtes à moustaches donnent donc un résumé visuel des données. Une aide très appréciable quand la base de données est lourde. Aux extrémités de la boîte, se trouvent les moustaches qui renseignent sur les valeurs minimales et maximales. Les côtes de la boîte correspondent aux 1er et 3e quartiles, quant à la barre au milieu de la boîte, c’est tout simplement la valeur médiane.
+
+Pour interpréter une boîte à moustaches, il faut soustraire la valeur du 3e quartile à la valeur du 1er quartile. Plus la valeur est faible, plus les valeurs sont réparties de manière uniformes.
+
+## Nettoyage des données
 
 Certaines bases de données ne sont pas au bon format. Elle sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
 
