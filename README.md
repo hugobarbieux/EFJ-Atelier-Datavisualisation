@@ -26,7 +26,7 @@ Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 ## Évaluation
 
-Pour réussir l'évaluation, les étudiants devront se mettre dans la peau d'un "visual journalist" qui désire publier une idée de sujet originale, comme si ils voulaient vendre un sujet à un rédacteur en chef. Il faudra donc pitcher en quelques lignes une idée de sujet d'actualité, soutenue par deux data visualisations, ainsi que quelques lignes afin de mettre les visuels en contexte. Les étudiants devront en plus justifier brièvement le choix des data visualisations afin de décrire l'intention de ces visuels en décrivant les codes, les couleurs, les échelles utilisés (catégorique, séquentielle, ...). Réaliser ces data visualisations de manière informative, originale et surtout pertinente. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
+Pour réussir l'évaluation, les étudiants devront se mettre dans la peau d'un "visual journalist" qui désire publier une idée de sujet originale, comme s'ils voulaient vendre un sujet à un rédacteur en chef. Il faudra donc pitcher en quelques lignes une idée de sujet d'actualité, soutenue par deux data visualisations, ainsi que quelques lignes afin de mettre les visuels en contexte. Les étudiants devront en plus justifier brièvement le choix des data visualisations afin de décrire l'intention de ces visuels en décrivant les codes, les couleurs, les échelles utilisés (catégorique, séquentielle, ...). Réaliser ces data visualisations de manière informative, originale et surtout pertinente. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
 
 ## Introduction
 
@@ -45,6 +45,8 @@ Quoi de plus compliqué à lire que des chiffres dans un tableau Excel ? Si, pou
 
 Une infographie permet de mettre en forme efficacement ces chiffres pour rendre l'information qu'ils contiennent compréhensible pour nous et faire apparaître des tendances, des ordres de grandeur, des répartitions géographiques, etc.
 
+Le visual journalism fait ainsi appel au concept de mimesis/diegesis ou ce que les Anglo-saxons appellent "Show, not tell". "Montrer plutot que décrire", c'est parfois plus simple pour raconter une information. "Montrer et décrire" est encore plus puissant quand les deux concepts se répondent au cours du récit. [Voir cette vidéo de Johnny Harris sur l'émergence de la Chine](https://www.youtube.com/watch?v=qw-FLc7Z01Q).
+
 #### De quoi est composée une datavisualisation :
 
 * Structure, échafaudage
@@ -62,7 +64,7 @@ Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-inte
 * Mettre en récit
 * Créer le design
 
-#### Culture générale
+#### Culture Générale
 
 [Narrative Visualization : Telling Stories with Data](http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf)
 
