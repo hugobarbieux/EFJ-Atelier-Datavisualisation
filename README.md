@@ -26,7 +26,9 @@ Identifier comment mettre en forme des données pour transmettre la bonne info.
 
 ## Évaluation
 
-Pour réussir l'évaluation, les étudiants devront se mettre dans la peau d'un "visual journalist" qui désire publier une idée de sujet originale, comme s'ils voulaient vendre un sujet à un rédacteur en chef. Il faudra donc pitcher en quelques lignes une idée de sujet d'actualité, soutenue par deux data visualisations, ainsi que quelques lignes afin de mettre les visuels en contexte. Les étudiants devront en plus justifier brièvement le choix des data visualisations afin de décrire l'intention de ces visuels en décrivant les codes, les couleurs, les échelles utilisés (catégorique, séquentielle, ...). Réaliser ces data visualisations de manière informative, originale et surtout pertinente. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
+Pour réussir l'évaluation, les étudiants devront se mettre dans la peau d'un "visual journalist" qui désire publier une idée de sujet originale, comme s'ils voulaient vendre un sujet à un rédacteur en chef. Il faudra donc pitcher en quelques lignes une idée de sujet d'actualité, soutenue par deux data visualisations, ainsi que quelques lignes afin de mettre les visuels en contexte.
+
+De plus, les étudiants devront justifier brièvement le choix des data visualisations afin de décrire l'intention de ces visuels en décrivant les codes, les couleurs, les échelles utilisés (catégorique, séquentielle, ...). Réaliser ces data visualisations de manière informative, originale et surtout pertinente. [Tips pour les pitches ici](https://www.journoresources.org.uk/pitching-guidelines/).
 
 ## Introduction
 
@@ -123,7 +125,9 @@ Il faut donc associer votre base de données avec la liste des code drapeaux. Co
 
 Bien souvent, une base de données seule ne suffit pas à construire une data visualisation, donc il faudra y associer une autre base.
 
-Pour associer deux tableaux, ils doivent impérativement avoir une colonne en commun, et si possible une colonne qui  il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux. Les fonctions [la RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code. Un code (comme un code ISO pour les abréviations de pays) est universellement reconnu et facilitera la jointure entre les tableaux.
+Pour associer deux tableaux, ils doivent impérativement avoir une colonne en commun, et si possible une colonne qui  il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux.
+
+Les fonctions [RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code. Un code (comme un code ISO pour les abréviations de pays) est universellement reconnu et facilitera la jointure entre les tableaux.
 
 ## Localisations et cartes
 
