@@ -170,7 +170,7 @@ Comme d'habitude, il est crucial de donner un titre et de sourcer ses datavisual
 
 QGIS est un logiciel de cartographie très avancé (GIS signifie Geographic Information System) qui est utilisé par tout "visual journalist" désireux de construire des cartes précises, et de niveau professionnel. Il fonctionne sur le principe des calques comme d'autres logiciels de traitement d'image dans le style de Photoshop. [Téléchargez QGIS](https://www.qgis.org/fr/site/forusers/download.html) et installez-le. Pour débuter avec QGIS, téléchargez [sur Natural Earth](https://www.naturalearthdata.com/downloads) des jeux de data pour créer une carte du monde. Sélectionnez Cultural.
 
-Vous pouvez tout antant télécharger sur data.gouv.fr le jeu de données cartographiques ADMIN EXPRESS (sous forme de Shape Files .shp) pour la France, édité par l'IGN.
+Vous pouvez tout autant télécharger sur data.gouv.fr le jeu de données cartographiques ADMIN EXPRESS (sous forme de Shape Files .shp) pour la France, édité par l'IGN.
 
 Pour progresser avec QGIS, vous n'aurez aucun mal à trouver de la documentation et des tutoriels, tant ce programme est puissant et populaire. Le [journaliste du Financial Times Steven Bernard](https://twitter.com/sdbernard?lang=fr) a d'ailleurs rendu public une série de tutoriels [sur sa chaîne YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R&app=desktop).
 
