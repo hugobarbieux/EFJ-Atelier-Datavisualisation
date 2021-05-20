@@ -184,7 +184,7 @@ Les données peuvent être encodées en une multitude de formats. Au cours de ce
 
 *Tableau interactif*
 
-Mais les data sont presque toujours présentées sous forme de tableau, dans un tableur. Et parfois, c'est aussi la manière la plus efficace de visualiser des données, comme par exemple, [des résultats sportifs](https://projects.fivethirtyeight.com/2020-nba-player-ratings/).
+Les bases de données brutes peuvent être présentées en tableaux, sur Excel. Et parfois, un tableau, c'est aussi la manière la plus efficace de visualiser des données. Un tableau évidemment moins austère qu'un tableau Excel. Un tableau comme datavisualidation est un excellent support pour [des résultats sportifs](https://projects.fivethirtyeight.com/2020-nba-player-ratings/).
 
 Essayons de créer un tableau interactif sur une page Web. Pour ça, il faut utiliser un langage pour créer du design sur le web, appelé JavaScript et des "packages" de design appelées _libraries_.
 
