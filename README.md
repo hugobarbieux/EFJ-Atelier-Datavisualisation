@@ -142,7 +142,7 @@ Dans cet exemple, la cartographie se justifie totalement car elle rend parfaitem
 Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/?fbclid=IwAR0P_IubPRRQQpTttFquKOeMrEVKFx4_DmS5y6ee7mXMkpA_4Hk8ZusBoIE) ont publié une [carte des violences policières durant les manifestations BLM de 2020](https://usprotests.forensic-architecture.org/). On peut utiliser des [données rendues disponibles](https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit?usp=sharing) pour reproduire une carte similaire.
 
 
-#### Utilisation des programmes Flourish, Datawrapper et QGIS pour personnaliser au maximum des cartes.
+#### Flourish, Datawrapper et QGIS pour personnaliser des cartes
 
 *Flourish*
 
