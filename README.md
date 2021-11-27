@@ -256,4 +256,23 @@ Dans les slides, n'hésitez pas à revenir sur les exemples vus au cours, comme 
 
 La data visualisation se décline aussi en son. On appelle ça l'audiolisation, comme le permet l'application TwoTone.
 
-Enfin, pour toucher de nouoveaux publics, pourquoi ne pas rivaliser d'imagination en s'inspirant du travail de Mona Chalabi sur Instagram et TikTok.
+Enfin, pour toucher de nouveaux publics, pourquoi ne pas rivaliser d'imagination en s'inspirant du travail de Mona Chalabi sur Instagram et TikTok.
+
+#### R
+
+Maîtriser le langage de programmation R fera de vous un data journaliste redoutable. Avec le langage Python, R est une méthode de programmation largement utilisé dans le monde scientifique et particulièrement dans les statistiques, la branche pour laquelle R a été inventé. La popularité du langage R permet aussi de trouver une très large gamme de tutoriels, et exemples de scripts pour surmonter des problèmes. Si vous êtes bloqués dans votre analyse de données, il est possible que d'autres personnes aient rencontré le même problème dans le passé et aient publié la résolution de ce problème.
+
+R permet essentiellement trois choses :
+
+* R est très puissant et vous autorise à manipuler de très larges bases de données qu'Excel ne supporterait pas.
+* Garder une trace de ses calculs statistiques et manipulations de données et les publier ([dans un Markdown par exemple](https://rmarkdown.rstudio.com/lesson-1.html)), permettant soit à la communauté des développeurs et data scientists de corriger votre script soit de faire preuve de transparence journalistique en publiant vos analyses et vos sources de données.
+* Comme vos analyses de données sont conservées dans un script, vous pouvez relancer l'analyse à tout moment si les données ont changé et ainsi de gagner un temps considérable.
+
+## Télécharger R et RStudio
+
+R c'est le coeur de la machine, mais pour l'utiliser, il faut une console, ou plutôt un IDE (Integrated Development Environment), appelée RStudio.
+[Suivez ce lien pour télécharger R via le projet CRAN](https://www.r-project.org/).
+[Suivez ce lien pour télécharger RStudio](https://www.rstudio.com/).
+Un tutoriel en français est [disponible ici](https://larmarange.github.io/analyse-R/installation-de-R-et-RStudio.html) pour l'installation.
+
+## Premiers pas avec R
