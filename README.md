@@ -271,8 +271,11 @@ R permet essentiellement trois choses :
 ## Télécharger R et RStudio
 
 R c'est le coeur de la machine, mais pour l'utiliser, il faut une console, ou plutôt un IDE (Integrated Development Environment), appelée RStudio.
+
 [Suivez ce lien pour télécharger R via le projet CRAN](https://www.r-project.org/).
+
 [Suivez ce lien pour télécharger RStudio](https://www.rstudio.com/).
+
 Un tutoriel en français est [disponible ici](https://larmarange.github.io/analyse-R/installation-de-R-et-RStudio.html) pour l'installation.
 
 ## Premiers pas avec R
