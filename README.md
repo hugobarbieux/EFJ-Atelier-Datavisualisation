@@ -258,7 +258,7 @@ La data visualisation se décline aussi en son. On appelle ça l'audiolisation, 
 
 Enfin, pour toucher de nouveaux publics, pourquoi ne pas rivaliser d'imagination en s'inspirant du travail de Mona Chalabi sur Instagram et TikTok.
 
-#### R
+## R
 
 Maîtriser le langage de programmation R fera de vous un data journaliste redoutable. Avec le langage Python, R est une méthode de programmation largement utilisé dans le monde scientifique et particulièrement dans les statistiques, la branche pour laquelle R a été inventé. La popularité du langage R permet aussi de trouver une très large gamme de tutoriels, et exemples de scripts pour surmonter des problèmes. Si vous êtes bloqués dans votre analyse de données, il est possible que d'autres personnes aient rencontré le même problème dans le passé et aient publié la résolution de ce problème.
 
@@ -279,3 +279,64 @@ R c'est le coeur de la machine, mais pour l'utiliser, il faut une console, ou pl
 Un tutoriel en français est [disponible ici](https://larmarange.github.io/analyse-R/installation-de-R-et-RStudio.html) pour l'installation.
 
 ## Premiers pas avec R
+
+#### Analyses de données
+
+*Packages et libraries*
+
+///
+
+*Trier et ordonner ses données*
+
+///
+
+*Ajouter des colonnes*
+
+///
+
+*Le casse-têtes des dates*
+
+///
+
+#### Visualisations de données avec R
+
+*Le package GGPLOT*
+
+///
+
+*Cartographie*
+
+///
+
+## Publier ses visualisations en ligne
+
+#### Construire et publier une page web
+
+La publication en ligne de vos informations est la finalité de votre travail.
+
+Pour publier un site web en ligne, rien de plus simple et pas besoin de partir d'une page blanche. Depuis le début de ce cours, vous auez remarqué qu'une bonne partie du code est en fait un copié-collé puis une adaptation de code déjà existant.
+
+Ici encore, GitHub vous sera d'une grande utilité car vous allez héberger gratuitement votre site.
+Il faut d'abord créer un nouveau repository (cochez l'option pour ajouter un fichier ReadMe). Soyez conscients que ce nom figurera dans l'adresse URL de votre page.
+
+
+Choisissez ensuite un thème de page web sur Bootstrap et copiez le code source de la page. Collez ce code dans un document dans un dossier sur votre ordinateur. Nommez ce dossier "docs" et le fichier comprenant le code source de la page "index.html". Modifiez un peu le code selon les consignes de Bootstrap.
+
+Entre les balises ```<head> </head>``` de la page html, insérez cette ligne de code reliant votre html à une feuille de style CSS.
+
+```<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">```
+
+Les pages Bootstrap utilisent du JavaScript pour l'interactivité. Copiez cette ligne de code correspondant à une script JS, juste avant la balise de fermetire ```</body>```
+
+```<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>```
+
+Sauvegardez index.html et glissez-déposez le dossier docs dans votre repository et allez dans Settings puis Pages. Choisissez le chemin \docs comme la source de votre page. Votre site est en ligne et vous avez une URL GitHub.
+
+Pour modifier votre page, il vous faudra des notions d'HTML et de CSS. Suivre les cours en ligne de [Codecademy](https://www.codecademy.com/) est vivement recommandé et ne vous prendra pas plus de deux jours.
+
+#### Publiez vos data visualisations
+
+Sur R, vous pouvez soit sauver vos graphiques et cartes en .png et également en .svg.
+
+Sauver en .svg est davantage adapté pour une publication web. R vous fournit un code à coller dans votre page html.
+
