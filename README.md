@@ -180,7 +180,13 @@ Pour progresser avec QGIS, vous n'aurez aucun mal à trouver de la documentation
 
 ## Code et interactivité
 
-Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de fichiers avec l'extension .csv (comma separated value) et nous avons vu quelques formats d'encodage géographiques (.geojson, .shp, ...)
+Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de fichiers avec l'extension .csv (comma separated value) et nous avons vu quelques formats d'encodage géographiques (.geojson, .shp, etc.)
+
+Nous avons aussi vu quelques applications pour visualiser ces données mais parfois, ces applications ne disposent pas exactement du design que nous souhaitons. Une option pour personnaliser ces dataviz, c'est de les codes en JavaScript.
+
+Avec D3, il est possible de créer à peu près tous les designs possibles et également de les rendre intéractifs. [Apprenez à utiliser D3 ici](https://observablehq.com/collection/@d3/learn-d3).
+
+Mais apprendre le JavaScript peut être compliqué, heureusement il existe quelques astuces pour plonger dans JS sans trop de douleurs.
 
 *Tableau interactif*
 
@@ -304,19 +310,29 @@ Par la suite, il faudra simplement charger la library : ```library("tidyverse")`
 
 Pour vous souvenir de l'opéraion que vous venez d'effectuer, ou en guise d'indication aux personnes qui pourraient être amnées à utiliser votre script, écrivez un commentaire. Tapez le signe # devant n'importe quelle ligne pour que R la considère comme un commentaire.
 
-*Le casse-têtes des dates*
-
-///
+Suivez les scripts R1 et R2 pour vous familiariser avec des opérations simples sur R.
 
 #### Visualisations de données avec R
 
 *Le package GGPLOT*
 
-///
+Dans le package tidyverse, figure le pakage ggplot2, optimisé pour construire des datavisualisations.
+
+La BBC est un des nombreux médias qui utilisent R et notamment ggplot pour la dataviz. Les data journalistes de la BBC ont mis à disposition de tous des "recettes" toutes faites pour constuire des graphiques à l'allure professionelle.
+
+[BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
+
+N'oubliez pas de consulter la [documentation concernant ce package](https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf).
 
 *Cartographie*
 
-///
+Nous avons couvert la cartographie avec QGIS. C'est aussi possible de créer des cartes avec R et le package ggplot, comme [dans ce tutoriel](https://colinfay.me/cartographier-second-tour-francais-r/).
+
+Un autre package est dédié aux cartes, [le pkg tmap](https://mtes-mct.github.io/parcours_r_module_datavisualisation/cartographie-avec-tmap.html) (voir exemple de script de cartes tmap dans ce repo).
+
+#### Aller plus loin
+
+Pour aller plus loin, essayez-vous aux [boîtes à moustaches](https://www.cedricscherer.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/?fbclid=IwAR2hUDrUt-P05uxeHWnnAWueN7jXxHOza2mG5EFsuTW_d5gk7VVkhTdOQYQ) et aux [cartes de chaleur](https://www.royfrancis.com/a-guide-to-elegant-tiled-heatmaps-in-r-2019/).
 
 ## Publier ses visualisations en ligne
 
