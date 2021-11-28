@@ -296,11 +296,13 @@ Pour commencer avec R, il faut installer des _Packages_ qui contiennent le vocab
 
 *Trier et ordonner ses données*
 
-///
+Le package _tidyverse_ est un vrai couteau suisse sur R. En fait c'est un package qui comprend d'autres packages.
 
-*Ajouter des colonnes*
+Installer un package pour la première fois : ```install.packages("tidyverse")```
 
-///
+Par la suite, il faudra simplement charger la library : ```library("tidyverse")```
+
+Pour vous souvenir de l'opéraion que vous venez d'effectuer, ou en guise d'indication aux personnes qui pourraient être amnées à utiliser votre script, écrivez un commentaire. Tapez le signe # devant n'importe quelle ligne pour que R la considère comme un commentaire.
 
 *Le casse-têtes des dates*
 
