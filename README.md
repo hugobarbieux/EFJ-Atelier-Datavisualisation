@@ -270,7 +270,7 @@ R permet essentiellement trois choses :
 
 ## Télécharger R et RStudio
 
-R c'est le coeur de la machine, mais pour l'utiliser, il faut une console, ou plutôt un IDE (Integrated Development Environment), appelée RStudio.
+R c'est le coeur de la machine. VOus pouvez utiliser la console mais il est beaucoup plus pratique d'utiliser un IDE (Integrated Development Environment), appelé RStudio.
 
 [Suivez ce lien pour télécharger R via le projet CRAN](https://www.r-project.org/).
 
@@ -281,6 +281,8 @@ Un tutoriel en français est [disponible ici](https://larmarange.github.io/analy
 ## Premiers pas avec R
 
 #### Analyses de données
+
+L'avantage de R est aussi de fonctionner avec des projets qui gardent en mémoire toutes vos actions. Il est très important d'être organisé et de trier ses dossiers. Commencez par créer un dossier au nom de votre projet. Dans RStudio, clickez sur **File > New Project > Existing directory**.
 
 *Packages et libraries*
 
