@@ -282,11 +282,17 @@ Un tutoriel en français est [disponible ici](https://larmarange.github.io/analy
 
 #### Analyses de données
 
-L'avantage de R est aussi de fonctionner avec des projets qui gardent en mémoire toutes vos actions. Il est très important d'être organisé et de trier ses dossiers. Commencez par créer un dossier au nom de votre projet. Dans RStudio, clickez sur **File > New Project > Existing directory**.
+L'avantage de R est aussi de fonctionner avec des projets qui gardent en mémoire toutes vos actions. Il est très important d'être organisé et de trier ses dossiers. Commencez par créer un dossier au nom de votre projet. Dans RStudio, clickez sur **File > New project > Existing directory** et naviguez dans l'arborescence de votre ordianteur et puis **Create project**.
 
 *Packages et libraries*
 
-///
+Vous êtes normalement devant votre IDE RStudio vide. La fenêtre principale est votre script où vous écrirez votre code. En bas à gauche, c'est la console où on peut aussi taper des opérations, en haut à droite, vous allez trouvez votre environnement et en bas à droite, les fichiers qui se trouvent dans votre projet, les éventuelles visualisations, et de la documentation.
+
+Pour commencer avec R, il faut installer des _Packages_ qui contiennent le vocabulaire nécessaire pour que R comprenne les opérations que vous lui demandez. Quand un _pkg_ est installé il faut charger la _library_ correspondante. C'est une façon très commune de commencer à programmer. Python fonctionne un peu de la même façon, avec quelques différences notoires.
+
+* [Série de tutos Youtube pour apprendre R pas à pas](https://www.youtube.com/watch?v=WJDrYUqNrHg&list=PLvhG5FRoq78otMp0WbWuJsFOarEAchMek&index=2)
+* [Des _cheatsheets_ ou copions très utiles sur toutes les opérations dont vous aurez besoin sur R](https://www.rstudio.com/resources/cheatsheets/)
+* En bonus : [une ressource pour aborder des notions de base de statistique avec R](http://r-statistics.co/Linear-Regression.html)
 
 *Trier et ordonner ses données*
 
