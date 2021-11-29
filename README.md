@@ -301,7 +301,7 @@ Un tutoriel en français est [disponible ici](https://larmarange.github.io/analy
 
 ## Premiers pas avec R
 
-#### Analyses de données
+#### [Analyses de données - entrainement suivant ce lien](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv)
 
 L'avantage de R est aussi de fonctionner avec des projets qui gardent en mémoire toutes vos actions. Il est très important d'être organisé et de trier ses dossiers. Commencez par créer un dossier au nom de votre projet. Dans RStudio, clickez sur **File > New project > Existing directory** et naviguez dans l'arborescence de votre ordianteur et puis **Create project**.
 
