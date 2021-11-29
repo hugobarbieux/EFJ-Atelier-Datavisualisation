@@ -184,6 +184,15 @@ Vous pouvez tout autant télécharger sur data.gouv.fr le jeu de données cartog
 
 Pour progresser avec QGIS, vous n'aurez aucun mal à trouver de la documentation et des tutoriels, tant ce programme est puissant et populaire. Le [journaliste du Financial Times Steven Bernard](https://twitter.com/sdbernard?lang=fr) a d'ailleurs rendu public une série de tutoriels [sur sa chaîne YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R&app=desktop).
 
+Entrainez-vous à créer une carte choroplète sur QGIS avec candidatq aux éléctions départementales - imaginez que vous voulez montrer l'effondrement des partis traditionaux face au RN :
+
+* Importer un fichier .shp des cantons électoraux (un shapefile vient avec quatre éléments aux total mais il ne faut importer que le .shp)
+* Importer un .csv avec les candidats au premier tour (disponible sur data.gouv.fr)
+* Faire la jointure de ces deux fichiers dans QGIS via **Properties > Joins** (voir documentation)
+* Vous devrez obligatoirement avoir une colonne en commun, par exemple un ID. Cet ID peut être créé en concatenant deux colonnes. Pour créer une nouvelle colonne dans QGIS, allez dans la table d'attributs, sélectionnez le mode édition puis allez dans le menu **field calculator** (boulier).
+* Toujours dans la table d'attributs, sélectionnez les lignes qui correspondent à un part politique.
+* De retour dans la fenêtre principale, click droit sur la couche correspondant à la carte et faites **Export > Save selected features as** et ainsi de suite pour les autres partis
+
 ## Code et interactivité
 
 Les données peuvent être encodées en une multitude de formats. Au cours de cet atelier nous avons beaucoup utilisé de fichiers avec l'extension .csv (comma separated value) et nous avons vu quelques formats d'encodage géographiques (.geojson, .shp, etc.)
