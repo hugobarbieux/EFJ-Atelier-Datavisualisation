@@ -101,7 +101,7 @@ ggplot() +
               hjust = 1),
           colour = "#f2e6d8",
           size = 3) +
-  geom_hline(yintercept = 20, size = 1.2, colour="red") +
+  geom_hline(yintercept = 0, size = 1.2, colour="white") +
   scale_x_date(date_breaks = "months" , date_labels = "%b %Y") +
   scale_y_continuous(breaks = seq(0, 500, by = 50)) +
   labs(title="Profil vaccinal des patients hospitalisés (20 ans et +)",
