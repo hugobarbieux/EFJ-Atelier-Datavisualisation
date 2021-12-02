@@ -343,7 +343,7 @@ N'oubliez pas de consulter la [documentation concernant ce package](https://cran
 
 Nous avons couvert la cartographie avec QGIS. C'est aussi possible de créer des cartes avec R et le package ggplot, comme [dans ce tutoriel](https://colinfay.me/cartographier-second-tour-francais-r/).
 
-Un autre package est dédié aux cartes, [le pkg tmap](https://mtes-mct.github.io/parcours_r_module_datavisualisation/cartographie-avec-tmap.html) (voir exemple de script de cartes tmap dans ce repo).
+Un autre package est dédié aux cartes, [le pkg tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html) (voir exemple de script de cartes tmap dans ce repo).
 
 #### Aller plus loin
 
