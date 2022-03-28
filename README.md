@@ -38,8 +38,10 @@ L'évaluation est effectuée à partir du travail en classe et sur l'avancement 
 
 ## Introduction
 
-Quelques exemples vus dans la presse mondiale, le champ des possibles en data visualisations.
-Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier les data visualisations parmi les publications les plus prestigieuses... et pourquoi pas, les reproduire.
+Quelques exemples vus dans la presse française et internationale, le champ des possibles en data visualisations.
+Nous reviendrons sur ces exemples au long de l'atelier pour expliquer et démystifier les data visualisations parmi les publications les plus prestigieuses... et pourquoi pas, les reproduire. En tout cas il conviendra surtout de tenir compte des enseignements de nos pairs et donc d'acquérir une observation active de ce qui est produit dans la presse.
+
+Exemples de retours d'expériences pendant la guerre en Ukraine : [Nieman's Lab](https://www.niemanlab.org/2022/03/how-maps-show-and-hide-key-information-about-the-ukraine-war/?fbclid=IwAR1NzujtFB_0nM4bpAOJjWkSukvddkCaCwYwSEa5ci32VqPCIfI4SaIJlxo) et [The Economist](https://view.e.economist.com/?qs=47ab3ac6d352c46ac7318d7ce367556d7dd97ad337f8c0bd9584627d2072e25be7c052eda584f94b1154492e5b90b2aa4dd29f251253986ac11aacd0f5a6aece322558c7960c6cbb0457d840b80d5f7b&fbclid=IwAR188ZkvXDrfiCIEh5d_BP7q87op5wNUVKXI4b5_4aBY9qm1pg8pRm5jyqE).
 
 À voir :
 
