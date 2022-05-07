@@ -10,7 +10,7 @@ Professeur : Hugo Barbieux hugobarbieux@gmail.com
 
 ## Synopsis
 
-Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension du journalisme de données (data journalism) pour s'adapter aux nouveaux numériques outils à venir.
+Cet atelier a pour but de mettre dans les mains des étudiants une série d'outils de mise en forme des données et de leur donner les clés de compréhension du journalisme visuel et du journalisme de données (data journalism) pour communiquer et diffuser des informations adaptées aux nouveaux usages des lecteurs et pour s'adapter aux nouvelles pratiques numériques.
 
 L'industrie de l'information est de plus en plus assistée par ordinateur. Il est donc essentiel de pouvoir récupérer des informations et des données via des applications numériques et donc de pouvoir "parler" à un ordinateur dans sa langue.
 
