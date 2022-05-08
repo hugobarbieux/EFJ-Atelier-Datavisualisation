@@ -121,15 +121,18 @@ Pour qu'une visualisation en boîtes à moustaches soit efficace, il faut pouvoi
 
 ## Graphiques et tableaux
 
-Utilisation des plateformes Datawrapper et Flourish pour construire des data visualisations interactives.
+*Utilisation des plateformes Datawrapper et Flourish pour construire des data visualisations interactives.*
+
+Parfois un tableau est la forme la plus simple pour visualiser des informations se trouvant à l'origine dans... un tableau.
+Télécharger les [données de mortalité liée à l'épidémie de Covid-19](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv) dans le monde aggrégés par l'Université John Hopkins et les synthétiser dans un tableau intéractif avec DataWrapper.
 
 [Allez dans la documentation](https://academy.datawrapper.de/category/77-tables) de Datawrapper pour savoir comment personnaliser ses tableaux.
 
-Par exemple, pour ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne à vos données avec un "flag code".  Il sera nécessaire de "scrapper" le tableau des codes avec la formule "=IMPORTHTML()" dans Google Sheets.
+Par exemple, pour ajouter un drapeau devant un nom de pays dans un tableau Datawrapper, la documentation vous suggère d'ajouter une colonne à vos données avec un _"flag code"_.  Il sera nécessaire de "scrapper" le tableau des codes avec la formule "=IMPORTHTML()" dans Google Sheets.
 
 Il faut donc associer votre base de données avec la liste des code drapeaux. Copiez les codes drapeaux dans une nouvelle feuille Excel de votre fichier de données et faites une RECHERCHEV pour rapatrier la colonne drapeaux près de la colonne pays.
 
-Bien souvent, une base de données seule ne suffit pas à construire une data visualisation, donc il faudra y associer une autre base.
+On comprend donc que bien souvent, une base de données seule ne suffit pas à construire une data visualisation, donc il faudra y associer une autre base.
 
 Pour associer deux tableaux, ils doivent impérativement avoir une colonne en commun, et si possible une colonne qui  il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux.
 
