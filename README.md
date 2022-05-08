@@ -153,13 +153,15 @@ Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). 
 
 ## Localisations et cartes
 
-Comment parler de data visualisations sans évoquer les cartes ? Mais la localisation de données passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
+Comment parler de data visualisations sans évoquer les cartes ? D'ailleurs, la localisation de données passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
 
 Attention à ne pas abuser des cartes et se faire abuser par leur très grande force esthétique. Voyez quand utiliser des cartes et quand ne pas les utiliser. [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
 
-Les cartes sont à utiliser pour représenter des répartitions géographiques. Et bien souvent, une carte seule ne suffit pas et devra être accompagnée d'autres graphes ou cartes pour compléter et contextualiser l'information. Par exemple, à l'issue de l'élection présidentielle aux États-Unis, [le New York Times a publié pas moins de quatre cartes](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html) ainsi que des cartes complémentaires sur une même page.
+Les cartes sont à utiliser pour représenter des répartitions géographiques. Une carte dit "combien" et non "où". Et bien souvent, une carte seule ne suffit pas à donner une information complète et devra être accompagnée d'autres graphes ou cartes pour compléter et contextualiser l'information. Par exemple, à l'issue de l'élection présidentielle aux États-Unis, [le New York Times a publié pas moins de quatre cartes](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html) ainsi que des cartes complémentaires sur une même page.
 
 Dans cet exemple, la cartographie se justifie totalement car elle rend parfaitement compte de la fracture entre les États du Nord et les États du Sud des États-Unis et entre le vote rural et urbain.
+
+La fracture entre populations rurales et citadines est également remarquable sur les cartes illustrant les résultats de l'élection présidentielle en France.
 
 Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/?fbclid=IwAR0P_IubPRRQQpTttFquKOeMrEVKFx4_DmS5y6ee7mXMkpA_4Hk8ZusBoIE) ont publié une [carte des violences policières durant les manifestations BLM de 2020](https://usprotests.forensic-architecture.org/). On peut utiliser des [données rendues disponibles](https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit?usp=sharing) pour reproduire une carte similaire.
 
@@ -168,11 +170,11 @@ Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.be
 
 *Flourish*
 
-Une carte est donc extrêmement utile pour repérer des répartitions géographiques (geographic patterns). Flourish rend facile la localisation de points sur une carte. Pour localiser des points, veillez à avoir une colonne longitude et une colonne latitude dans votre base de données (parfois respectivement nommées x et y).
+Flourish rend facile la localisation de points sur une carte. Pour localiser des points, veillez à avoir une colonne longitude et une colonne latitude dans votre base de données (parfois respectivement nommées x et y).
 
 Ces données de la [police britannique](https://data.police.uk/data/) marchent parfaitement pour pointer les faits de criminalité sur une carte.
 
-Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez "Category dot map". Comme toujours avec Flourish, ouvrez les data d'abord pour voir comment le template est encodé et au besoin, nettoyez et adaptez vos données en adéquation avec le template de Flourish. Les colonnes latitude, longitude et category sont les plus importantes. Cette dernière est reliée à la colonne Category de l'onglet Categories.
+Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez "Category dot map". Comme toujours avec Flourish, ouvrez l'onglet _Data_ d'abord pour voir comment le template est encodé et au besoin, nettoyez et adaptez vos données en adéquation avec le template de Flourish. Les colonnes _latitude_, _longitude_ et _category_ sont les plus importantes. Cette dernière est reliée à la colonne _Category_ de l'onglet Categories.
 
 Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial).
 
@@ -183,6 +185,8 @@ Peut-être verrez-vous des répartitions de bons et moins bons lycées réunis d
 Dans Flourish, quelques templates existent déjà pour créer des cartes très rapidement. France, Royaume-Uni, États-Unis, etc. Mais pour votre sujet, vous aurez peut-être besoin d'un autre template qui ne figure pas dans la bibliothèque. Flourish permet d'importer des templates personnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
 
 Pour importer une nouvelle carte dans Flourish, vous aurez besoin d'un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
+
+Visualiser les résultats de l'élection présidentielle en Île-de-France. Pour ce faire vous devrez importer des [données géographiques](https://www.data.gouv.fr/fr/datasets/communes-ile-de-france/) dans Flourish et puis les associer aux résultats.
 
 *Datawrapper*
 
