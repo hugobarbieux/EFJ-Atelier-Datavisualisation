@@ -107,22 +107,9 @@ Regardez maintenant les valeurs extrêmes. Par exemple, dans les années 80, les
 
 Interroger des données n'apporte pas forcément toutes les réponses mais permet de dégager des angles intéressants. Il faut donc intégrer une notion très importante : la différence entre **corrélation et correspondance**.
 
-## Nettoyage des données
+#### *Box Plots* - Boîtes à moustaches
 
-Certaines bases de données ne sont pas au bon format. Elles sont présentées dans un tableau au format large, au lieu d'un format long.
-
-On admet en général que chaque ligne (row) dans une base de donnée correspond à une seule "observation". Voir l'exemple vu en cours des données de la Banque Mondiale. 
-Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
-
-[Guide d'installation d'OpenRefine](https://openrefine.org/download.html)
-
-[Tutoriel pour le nettoyage OpenRefine](https://blog.ouseful.info/2012/07/30/data-shaping-in-google-refine-generating-new-rows-from-multiple-values-in-a-single-column/).
-
-Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). Mais OpenRefine est régulièrement mis à jour et permet bien d'autres opérations. C'est un outil que chaque data journaliste a installé d'office sur son ordinateur.
-
-#### Boîtes à moustaches (« Box Plots »)
-
-Les boîtes à moustaches peuvent avoir un gand intérêt dans la communication visuelle de données. Aux extrémités de la boîte, se trouvent les moustaches qui renseignent sur les valeurs minimales et maximales. Les côtes de la boîte correspondent aux 1er et 3e quartiles, quant à la barre au milieu de la boîte, c’est tout simplement la valeur médiane.
+Les boîtes à moustaches peuvent avoir un gand intérêt dans la communication visuelle de données. Aux extrémités de la boîte, se trouvent les moustaches qui renseignent sur les valeurs minimales et maximales. Les côtés de la boîte correspondent aux 1er et 3e quartiles, quant à la barre au milieu elle correspond à la valeur médiane.
 
 Pour interpréter une boîte à moustaches, il faut soustraire la valeur du 3e quartile à la valeur du 1er quartile. Plus la valeur est faible, plus les valeurs sont réparties de manière uniformes.
 
@@ -147,6 +134,19 @@ Bien souvent, une base de données seule ne suffit pas à construire une data vi
 Pour associer deux tableaux, ils doivent impérativement avoir une colonne en commun, et si possible une colonne qui  il doivent d'abord se trouver dans le même document. Faites un clic droit sur le nom de la feuille et copiez cette feuille vers votre document principal. C'est à ce moment que vous pourrez associer vos tableaux.
 
 Les fonctions [RECHERCHEV](https://support.microsoft.com/fr-fr/office/recherchev-recherchev-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1) ou [XLOOKUP](https://support.microsoft.com/fr-fr/office/fonction-xlookup-b7fd680e-6d10-43e6-84f9-88eae8bf5929) permettent d'éviter les erreurs. Petit conseil : toujours avoir une colonne en commun, et si possible une colonne ID ou Code. Un code (comme un code ISO pour les abréviations de pays) est universellement reconnu et facilitera la jointure entre les tableaux.
+
+## Nettoyage des données
+
+Certaines bases de données ne sont pas au bon format. Elles sont présentées dans un tableau au format large, au lieu d'un format long.
+
+On admet en général que chaque ligne (row) dans une base de donnée correspond à une seule "observation". Voir l'exemple vu en cours des données de la Banque Mondiale. 
+Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
+
+[Guide d'installation d'OpenRefine](https://openrefine.org/download.html)
+
+[Tutoriel pour le nettoyage OpenRefine](https://blog.ouseful.info/2012/07/30/data-shaping-in-google-refine-generating-new-rows-from-multiple-values-in-a-single-column/).
+
+Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). Mais OpenRefine est régulièrement mis à jour et permet bien d'autres opérations. C'est un outil que chaque data journaliste a installé d'office sur son ordinateur.
 
 ## Localisations et cartes
 
