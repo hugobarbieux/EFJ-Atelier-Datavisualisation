@@ -100,7 +100,7 @@ Par défaut, Inzight met la première colonne dans la première variable. Essaye
 
 Sélectionnez une seconde variable. Par exemple, _Childrenperwoman_. Le Scatter Plot change et on peut déjà observer une tendance mais c'est encore très encombré. Il faudrait aussi subdiviser par année. Faites alors _Subset by_. Mais selectionnez _Year_cat_. _Year_cat_ est en fait la colonne _Year_ mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
 
-Si vous cliquez sur le bouton _Add to plot_, puis, plus bas, _Group by_ et sélectionnez _Continent_, les points (qui représentent les pays) vont prendre une couleur selon la région du globe. Pour nommer les points, vous devez remonter dans le menu déroulant et choisir _Identify point_s puis _Text label_, puis _Country_.
+Pour entrer plus en détail dans ces données, il faudrait savoir plus précisément à quoi correspondent ces points. À des pays... mais sur quel contineent ? Cliquez sur _Add to plot_ et choisissez _Identify points_ dans le menu déroulant.
 
 Essayez de changer la seconde variable. Un Scatter Plot vous permet d'effectuer un lien. Par exemple, les femmes ont plus d'enfants dans les pays pauvres.
 Regardez maintenant les valeurs extrêmes. Par exemple, dans les années 80, les EAU avaient un taux d'enfants par femme élevé pour un GDP élevé, à l'inverse des autres pays. Il y a peut-être des facteurs culturels qui expliquent le nombre d'enfants. Ceci pourrait être un sujet à investiguer ou à expliquer.
