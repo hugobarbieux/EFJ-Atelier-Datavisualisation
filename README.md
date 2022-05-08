@@ -98,7 +98,7 @@ Pour vous entrainer avec Inzight, utilisez une base de donnée existante. Aller 
 
 Par défaut, Inzight met la première colonne dans la première variable. Essayez avec _GDPpercapita_. Inzight affiche alors un nuage de points (ou Scatter Plot). La majorité des points est à gauche, signifiant que la plupart des pays ont un _GDPpercapita_ faible.
 
-Sélectionnez une seconde variable. Par exemple, _Childrenperwoman_. Le Scatter Plot change mais est très encombré. Il faudrait aussi subdiviser par année. Faites alors Subset by. Mais selectionnez Year_cat. Year_cat est en fait la colonne Year mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
+Sélectionnez une seconde variable. Par exemple, _Childrenperwoman_. Le Scatter Plot change et on peut déjà observer une tendance mais c'est encore très encombré. Il faudrait aussi subdiviser par année. Faites alors _Subset by_. Mais selectionnez _Year_cat_. _Year_cat_ est en fait la colonne _Year_ mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
 
 Si vous cliquez sur le bouton _Add to plot_, puis, plus bas, _Group by_ et sélectionnez _Continent_, les points (qui représentent les pays) vont prendre une couleur selon la région du globe. Pour nommer les points, vous devez remonter dans le menu déroulant et choisir _Identify point_s puis _Text label_, puis _Country_.
 
