@@ -86,7 +86,7 @@ Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-inte
 [Alberto Cairo](https://www.amazon.fr/Functional-Art-introduction-information-visualization/dp/0321834739)
 
 
-#### Statistiques exploratoires : les dataviz pour trouver des idées de sujet
+## Statistiques exploratoires : les dataviz pour trouver des idées de sujet
 
 Parfois, créer une data visualisation ne sert pas seulement à agrémenter son récit d'éléments visuels. En tant que journaliste, visualiser des données permet d'explorer son jeu de données, et ce, avant du publier son sujet. [Inzight](https://inzight.nz/) (préférez la version Lite), est un programme développé par l'Université d'Auckland, en Nouvelle-Zélande, est parfait pour cette tâche. Un bon récap de ce que permet de faire Inzight [se trouve ici (en français)](https://www.icem7.fr/outils/inzight-tapis-volant-neo-zelandais-de-la-statistique/?fbclid=IwAR3gec7Uv85lM1iqA9ciBnfBML99DPUE9TggjRfaSgceVkhSAeqy0dy2yMA).
 
@@ -94,7 +94,7 @@ Avec une data visualisation, les données se retrouvent en contexte, on se rend 
 
 Pour vous entrainer avec Inzight, utilisez une base de donnée existante. Aller dans _File > Dataset examles_. Dans le menu déroulant à gauche, choisissez Future Learn, puis Gapminder. Cliquez sur le bouton _Select Set_ et cliquez sur _Visualize_.
 
-*Scatter plots - Nuages de points*
+#### *Scatter plots* - Nuages de points
 
 Par défaut, Inzight met la première colonne dans la première variable. Essayez avec _GDPpercapita_. Inzight affiche alors un nuage de points (ou Scatter Plot). La majorité des points est à gauche, signifiant que la plupart des pays ont un _GDPpercapita_ faible.
 
@@ -120,8 +120,7 @@ Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un
 
 Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). Mais OpenRefine est régulièrement mis à jour et permet bien d'autres opérations. C'est un outil que chaque data journaliste a installé d'office sur son ordinateur.
 
-
-## Boîtes à moustaches (« Box Plots »)
+#### Boîtes à moustaches (« Box Plots »)
 
 Les boîtes à moustaches peuvent avoir un gand intérêt dans la communication visuelle de données. Aux extrémités de la boîte, se trouvent les moustaches qui renseignent sur les valeurs minimales et maximales. Les côtes de la boîte correspondent aux 1er et 3e quartiles, quant à la barre au milieu de la boîte, c’est tout simplement la valeur médiane.
 
