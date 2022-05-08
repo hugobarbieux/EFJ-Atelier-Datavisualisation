@@ -70,6 +70,7 @@ Utiliser le [vocabulaire visuel du FT](https://raw.githubusercontent.com/ft-inte
 
 * Trouver un sujet
 * Trouver des données
+* Nettoyer les données
 * Vérifier
 * Mettre en récit
 * Créer le design
@@ -103,23 +104,32 @@ Essayez de changer la seconde variable. Un Scatter Plot vous permet d'effectuer 
 
 Il faut donc intégrer une notion très importante : la différence entre **corrélation et correspondance**.
 
-## Boîtes à moustaches (« Box Plots »)
-
-Un grand intérêt de Inzight, c’est l’intégration de données statistiques aux graphiques. En effet, Inzight est un outil créé sur la base d’un code en R, un programme spécialement destiné à l’analyse statistique.
-
-Les boîtes à moustaches donnent donc un résumé visuel des données. Une aide très appréciable quand la base de données est lourde. Aux extrémités de la boîte, se trouvent les moustaches qui renseignent sur les valeurs minimales et maximales. Les côtes de la boîte correspondent aux 1er et 3e quartiles, quant à la barre au milieu de la boîte, c’est tout simplement la valeur médiane.
-
-Pour interpréter une boîte à moustaches, il faut soustraire la valeur du 3e quartile à la valeur du 1er quartile. Plus la valeur est faible, plus les valeurs sont réparties de manière uniformes.
 
 ## Nettoyage des données
 
-Certaines bases de données ne sont pas au bon format. Elles sont dans un format large, au lieu d'un format long. On dit que chaque ligne (row) correspond à une seule "observation". Exemple des données de la Banque Mondiale. Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
+Certaines bases de données ne sont pas au bon format. Elles sont présentées dans un tableau au format large, au lieu d'un format long.
+
+On admet en général que chaque ligne (row) dans une base de donnée correspond à une seule "observation". Voir l'exemple vu en cours des données de la Banque Mondiale. 
+Une opération de nettoyage sur OpenRefine peut être nécessaire pour passer un tableau du format large au format long.
 
 [Guide d'installation d'OpenRefine](https://openrefine.org/download.html)
 
 [Tutoriel pour le nettoyage OpenRefine](https://blog.ouseful.info/2012/07/30/data-shaping-in-google-refine-generating-new-rows-from-multiple-values-in-a-single-column/).
 
 Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). Mais OpenRefine est régulièrement mis à jour et permet bien d'autres opérations. C'est un outil que chaque data journaliste a installé d'office sur son ordinateur.
+
+
+## Boîtes à moustaches (« Box Plots »)
+
+Les boîtes à moustaches peuvent avoir un gand intérêt dans la communication visuelle de données. Aux extrémités de la boîte, se trouvent les moustaches qui renseignent sur les valeurs minimales et maximales. Les côtes de la boîte correspondent aux 1er et 3e quartiles, quant à la barre au milieu de la boîte, c’est tout simplement la valeur médiane.
+
+Pour interpréter une boîte à moustaches, il faut soustraire la valeur du 3e quartile à la valeur du 1er quartile. Plus la valeur est faible, plus les valeurs sont réparties de manière uniformes.
+
+On peut ici reprendre Inzight pour créer des boîtes à moustaches. Un grand intérêt d'Inzight, c’est l’intégration de données statistiques aux graphiques. En effet, Inzight est un outil créé sur la base d’un code en R, un langage de programmation spécialement destiné à l’analyse statistique. Inzight permet donc de traiter des données comme si on utilisait R mais avec une interface plus simple. Si la base données est très lourde.
+
+*RawGraphs*
+
+Pour qu'une visualisation en boîtes à moustaches soit efficace, il faut pouvoir diviser sa base de données en plusieurs groupes de valeurs. Par exemple : des équipes de foot. Un programme de data visualisations qui permet efficacement de créer des boites à moustaches est RawGraphs. Testez RawGraphs avec le classement FIFA.
 
 ## Graphiques et tableaux
 
