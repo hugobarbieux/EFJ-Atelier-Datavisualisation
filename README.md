@@ -92,18 +92,20 @@ Parfois, créer une data visualisation ne sert pas seulement à agrémenter son 
 
 Avec une data visualisation, les données se retrouvent en contexte, on se rend alors mieux compte des éventuelles faiblesses de ses données (faut-il chercher d'autres données ?) ou s'il existe d'autres angles intéressants à traiter.
 
-Pour vous entrainer avec Inzight, utilisez une base de donnée existante. Aller dans _File > Dataset examles_. Dans le menu déroulant à gauche, choisissez Future Learn, puis Gapminder. Cliquez sue le bouton Select Set et cliquez sur Visualize.
+Pour vous entrainer avec Inzight, utilisez une base de donnée existante. Aller dans _File > Dataset examles_. Dans le menu déroulant à gauche, choisissez Future Learn, puis Gapminder. Cliquez sur le bouton _Select Set_ et cliquez sur _Visualize_.
 
-Par défaut, Inzight met la première colonne dans la première variable. Essayez avec GDPpercapita. Inzight affiche alors un nuage de points (ou Scatter Plot). La majorité des points est à gauche, signifiant que la plupart des pays ont un GDPpercapita faible.
+*Scatter plots - Nuages de points*
 
-Sélectionnez une seconde variable. Par exemple, Childrenperwoman. Le Scatter Plot change mais est très encombré. Il faudrait aussi subdiviser par année. Faites alors Subset by. Mais selectionnez Year_cat. Year_cat est en fait la colonne Year mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
+Par défaut, Inzight met la première colonne dans la première variable. Essayez avec _GDPpercapita_. Inzight affiche alors un nuage de points (ou Scatter Plot). La majorité des points est à gauche, signifiant que la plupart des pays ont un _GDPpercapita_ faible.
 
-Si vous cliquez sur le bouton Add to plot, puis, plus bas, Group by et sélectionnez Continent, les points (qui représentent les pays) vont prendre une couleur selon la région du globe. Pour nommer les points, vous devez remonter dans le menu déroulant et choisir Identify points puis Text label, puis Country.
+Sélectionnez une seconde variable. Par exemple, _Childrenperwoman_. Le Scatter Plot change mais est très encombré. Il faudrait aussi subdiviser par année. Faites alors Subset by. Mais selectionnez Year_cat. Year_cat est en fait la colonne Year mais les années sont interprétés comme une catégorie et non comme des chiffres à additionner. Inzight subdivise alors le nuage de points encombré par plusieurs, plus simples à lire.
 
-Essayez de changer la seconde variable. Un Scatter Plot vous permet d'effectuer un lien. Par exemple, les femmes ont plus d'enfants dans les pays pauvres. Regardez maintenant les valeurs extrêmes. Par exemple, dans les années 80, les EAU avaient un taux d'enfants par femme élevé pour un GDP élevé, à l'inverse des autres pays. Il y a peut-être des facteurs culturels ou autre qui expliquent le nombre d'enfants. Ceci pourrait être un sujet à investiguer ou à expliquer.
+Si vous cliquez sur le bouton _Add to plot_, puis, plus bas, _Group by_ et sélectionnez _Continent_, les points (qui représentent les pays) vont prendre une couleur selon la région du globe. Pour nommer les points, vous devez remonter dans le menu déroulant et choisir _Identify point_s puis _Text label_, puis _Country_.
 
-Il faut donc intégrer une notion très importante : la différence entre **corrélation et correspondance**.
+Essayez de changer la seconde variable. Un Scatter Plot vous permet d'effectuer un lien. Par exemple, les femmes ont plus d'enfants dans les pays pauvres.
+Regardez maintenant les valeurs extrêmes. Par exemple, dans les années 80, les EAU avaient un taux d'enfants par femme élevé pour un GDP élevé, à l'inverse des autres pays. Il y a peut-être des facteurs culturels qui expliquent le nombre d'enfants. Ceci pourrait être un sujet à investiguer ou à expliquer.
 
+Interroger des données n'apporte pas forcément toutes les réponses mais permet de dégager des angles intéressants. Il faut donc intégrer une notion très importante : la différence entre **corrélation et correspondance**.
 
 ## Nettoyage des données
 
