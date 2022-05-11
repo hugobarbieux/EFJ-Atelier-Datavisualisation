@@ -153,11 +153,11 @@ Alternative à OpenRefine : [Data Wrangler](http://vis.stanford.edu/wrangler/). 
 
 ## Localisations et cartes
 
-Comment parler de data visualisations sans évoquer les cartes ? D'ailleurs, la localisation de données passe aussi sans cartes. On peut tout aussi bien identifier des personnes sur une photo de groupe.
+Comment parler de data visualisations sans évoquer les cartes ? Pour réaliser une carte, vous allez avoir besoin de géolocaliser vos données. Soit avec une latitude et une longitude pour placer des points sur une carte, soit avec un fichier plus dense pour représenter des régions, et donc des aires. Dans tous les cas, si votre fichier de données ne contient pas à l'origine des d'indication géographiques (latitude, longitude, aires), il faudra effectuer une jointure. Veillez à avoir une colonne en commun pour effectuer une jointure.
 
-Attention à ne pas abuser des cartes et se faire abuser par leur très grande force esthétique. Voyez quand utiliser des cartes et quand ne pas les utiliser. [Suivez le guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
+Attention à ne pas abuser des cartes et se faire séduire trop rapidement par leur très grande force esthétique. Voyez quand utiliser des cartes et quand ne pas les utiliser [avec ce guide](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/).
 
-Les cartes sont à utiliser pour représenter des répartitions géographiques. Une carte dit "combien" et non "où". Et bien souvent, une carte seule ne suffit pas à donner une information complète et devra être accompagnée d'autres graphes ou cartes pour compléter et contextualiser l'information. Par exemple, à l'issue de l'élection présidentielle aux États-Unis, [le New York Times a publié pas moins de quatre cartes](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html) ainsi que des cartes complémentaires sur une même page.
+Les cartes sont à utiliser pour représenter des **répartitions géographiques**. Une carte dit "combien" et non "où". Et bien souvent, une carte seule ne suffit pas à donner une information complète et devra être accompagnée d'autres graphes ou cartes pour compléter et contextualiser l'information. Par exemple, à l'issue de l'élection présidentielle aux États-Unis, [le New York Times a publié pas moins de quatre cartes](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html) ainsi que des cartes complémentaires sur une même page.
 
 Dans cet exemple, la cartographie se justifie totalement car elle rend parfaitement compte de la fracture entre les États du Nord et les États du Sud des États-Unis et entre le vote rural et urbain.
 
@@ -172,15 +172,17 @@ Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.be
 
 Flourish rend facile la localisation de points sur une carte. Pour localiser des points, veillez à avoir une colonne longitude et une colonne latitude dans votre base de données (parfois respectivement nommées x et y).
 
-Ces données de la [police britannique](https://data.police.uk/data/) marchent parfaitement pour pointer les faits de criminalité sur une carte.
+Ces données de la [police britannique](https://data.police.uk/data/) marchent parfaitement pour pointer les faits de criminalité sur une carte car elles contiennnet déjà les colonnes latitude et longitude. Télécharger un set de données (par exemple pour les West Midlands) pour visualiser une répartition des crimes commis dans cette zone. Ouvrez les données et observez les informations dont vous disposez, nettoyez et triez si besoin.
 
-Sur la page d'accueil de Flourish, descendez jusqu'à Marker Map et choisissez "Category dot map". Comme toujours avec Flourish, ouvrez l'onglet _Data_ d'abord pour voir comment le template est encodé et au besoin, nettoyez et adaptez vos données en adéquation avec le template de Flourish. Les colonnes _latitude_, _longitude_ et _category_ sont les plus importantes. Cette dernière est reliée à la colonne _Category_ de l'onglet Categories.
+Sur la page d'accueil de Flourish, cherchez _Projection map_ et sélectionnez une carte du Royaume-Uni (par exemple _Local authorities_). Comme toujours avec Flourish, **ouvrez l'onglet _Data_ d'abord** pour voir comment le template est encodé et au besoin, nettoyez et adaptez vos données en adéquation avec le template de Flourish. Ici vous pouvez ajouter des points dans l'onglet _Points_. Les colonnes _latitude_, _longitude_ contiennent déjà des données mais vous pouvez *uploader* les vôtres.
+
+Dans les paramètres, vous pourrez préciser des catégories dont vous pourrez modifeir la représentation en choisissant une couleur en fonction de la catégorie de crime commis. Vous opterez donc pour une **échelle catégorielle**.
 
 Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial).
 
 Pour donner une valeur aux points, il faut fusionner le avec une autre base de données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Encore une fois, préférez le code établissement au nom de l'établissement.
 
-Peut-être verrez-vous des répartitions de bons et moins bons lycées réunis dans certains départements et peut-être serez-vous tentés d'établir un lien entre le niveau de vie et la réussite scolaire. Par contre si votre but est de faire une relation, un graphique en forme de nuage de points sera utile pour renforcer votre propos. Mais attention aux biais cognitifs et appuyez toujours votre propos par un avis d'expert.
+Peut-être verrez-vous des répartitions de "bons" et "moins bons" lycées repartis dans certains départements et peut-être serez-vous tentés d'établir un lien entre le niveau de vie et la réussite scolaire. Par contre si votre but est de faire une relation, un graphique en forme de nuage de points sera nécessaire pour renforcer votre propos. Mais attention aux biais cognitifs et appuyez toujours votre propos par un avis d'expert.
 
 Dans Flourish, quelques templates existent déjà pour créer des cartes très rapidement. France, Royaume-Uni, États-Unis, etc. Mais pour votre sujet, vous aurez peut-être besoin d'un autre template qui ne figure pas dans la bibliothèque. Flourish permet d'importer des templates personnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
 
