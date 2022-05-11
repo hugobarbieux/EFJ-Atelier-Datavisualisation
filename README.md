@@ -168,7 +168,7 @@ Les médias d'investigation [Bellingcat et Forensic Architecture](https://www.be
 
 #### Flourish, Datawrapper et QGIS pour personnaliser des cartes
 
-*Flourish*
+## Carte de points (scatter map) avec Flourish
 
 Flourish rend facile la localisation de points sur une carte. Pour localiser des points, veillez à avoir une colonne longitude et une colonne latitude dans votre base de données (parfois respectivement nommées x et y).
 
@@ -178,15 +178,21 @@ Sur la page d'accueil de Flourish, cherchez _Projection map_ et sélectionnez un
 
 Dans les paramètres, vous pourrez préciser des catégories dont vous pourrez modifeir la représentation en choisissant une couleur en fonction de la catégorie de crime commis. Vous opterez donc pour une **échelle catégorielle**.
 
+Attention : par défaut Flourish donne une couleur aux région et vous fournit une carte choroplète. Ce n'est pas pertinent car aucune valeur n'y est associée. Modifier les paramètres pour donner une couleur neutre aux régions.
+
 Testez-vous et essayez de localiser les établissements scolaires d'Île-de-France sur une carte Flourish. Vous aurez [besoin d'un annuaire](https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?disjunctive.nom_etablissement&disjunctive.type_etablissement&disjunctive.appartenance_education_prioritaire&disjunctive.type_contrat_prive&disjunctive.code_type_contrat_prive&disjunctive.pial).
 
 Pour donner une valeur aux points, il faut fusionner le avec une autre base de données. Par exemple un [indicateur de résultat des lycées](https://data.education.gouv.fr/explore/dataset/fr-en-indicateurs-de-resultat-des-lycees-denseignement-general-et-technologique/table/). Encore une fois, préférez le code établissement au nom de l'établissement.
 
 Peut-être verrez-vous des répartitions de "bons" et "moins bons" lycées repartis dans certains départements et peut-être serez-vous tentés d'établir un lien entre le niveau de vie et la réussite scolaire. Par contre si votre but est de faire une relation, un graphique en forme de nuage de points sera nécessaire pour renforcer votre propos. Mais attention aux biais cognitifs et appuyez toujours votre propos par un avis d'expert.
 
+## Cartes choroplètes avec Flourish
+
 Dans Flourish, quelques templates existent déjà pour créer des cartes très rapidement. France, Royaume-Uni, États-Unis, etc. Mais pour votre sujet, vous aurez peut-être besoin d'un autre template qui ne figure pas dans la bibliothèque. Flourish permet d'importer des templates personnalisés. Dans la documentation, [Flourish explique](https://help.flourish.studio/article/71-how-to-add-your-own-map-regions) comment importer ses propres cartes.
 
-Pour importer une nouvelle carte dans Flourish, vous aurez besoin d'un fichier de type GeoJSON. Essayez de trouver un fichier GeoJSON de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra le convertir sur le site [MapShaper](https://mapshaper.org/) pour Flourish (voir documentation).
+Pour importer une nouvelle carte dans Flourish, vous aurez besoin d'un fichier de type GeoJSON. Essayez de trouver un fichier représentant les régions de la Chine. Vous en trouverez un [dans ce GitHub](https://github.com/deldersveld/topojson/) mais il faudra convertir le fichier `.JSON` que vous aurez téléchargé en `.geoJSON` sur le site [MapShaper](https://mapshaper.org/) (cfr. documentation).
+
+Ensuite, associez (faites la jointure) avec des données de population des région chinoises, que vous aurez trouvées sur Internet. Quand c'est fait, choisissez la bonne échelle de couleurs en fonction des valeurs (catégorielle ou séquentielle). Le site DataWrapper vous donne [ici quelques astuces pour choisir correctement votre échelle](https://blog.datawrapper.de/which-color-scale-to-use-in-data-vis/).
 
 Visualiser les résultats de l'élection présidentielle en Île-de-France. Pour ce faire vous devrez importer des [données géographiques](https://www.data.gouv.fr/fr/datasets/communes-ile-de-france/) dans Flourish et puis les associer aux résultats.
 
